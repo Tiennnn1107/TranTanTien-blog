@@ -1,0 +1,11 @@
+baseURL = "http://localhost/"
+languageCode = "vi"
+title = "Blog lập trình của Trần Tấn Tiến"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
