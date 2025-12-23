@@ -1,31 +1,49 @@
 baseURL = "https://Tiennnn1107.github.io/TranTanTien-blog/"
 languageCode = "vi"
-title = "Tran Tan Tien Blog"
+title = "Blog lập trình của Trần Tấn Tiến"
 theme = "PaperMod"
 
-publishDir = "docs"
-relativeURLs = true
-canonifyURLs = true
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
 
 [params]
-  defaultTheme = "light"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+    defaultTheme = "light" # Giao diện sáng sẽ giống mẫu hơn
+    disableSpecial1stPost = true
+    displayFullPostContent = false
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    assets = { disableFingerprinting = true }
+
+    # Cấu hình Profile Mode dạng Portfolio
+    [params.profileMode]
+        enabled = true
+        title = "TRAN TAN TIEN"
+        subtitle = "Chậm cũng được ,không dừng lại là được."
+        imageTitle = "Trần Tấn Tiến"
+        # Thay link ảnh chân dung của bạn vào đây
+        imageUrl = "https://github.com/Tiennnn1107.png" 
+        imageWidth = 450
+        imageHeight = 450
+
+        [[params.profileMode.buttons]]
+            name = "XEM PORTFOLIO"
+            url = "posts"
+
+        [[params.profileMode.buttons]]
+            name = "LIÊN HỆ"
+            url = "about"
 
 [menu]
-  [[menu.main]]
-    name = "Trang chủ"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Bài viết"
-    url = "/posts/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Giới thiệu"
-    url = "/about/"
-    weight = 3
+    [[menu.main]]
+        name = "HOME"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "POSTS"
+        url = "/posts/"
+        weight = 2
+    [[menu.main]]
+        name = "ABOUT"
+        url = "/about/"
+        weight = 3

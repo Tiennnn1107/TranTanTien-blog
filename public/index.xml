@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Trang chủ on Blog lập trình của Trần Tấn Tiến</title>
+    <title>Blog lập trình của Trần Tấn Tiến</title>
     <link>https://Tiennnn1107.github.io/TranTanTien-blog/</link>
-    <description>Recent content in Trang chủ on Blog lập trình của Trần Tấn Tiến</description>
+    <description>Recent content on Blog lập trình của Trần Tấn Tiến</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
     <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
@@ -31,6 +31,14 @@
 &lt;li&gt;Bắt exception&lt;/li&gt;
 &lt;li&gt;Log lỗi rõ ràng&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>dasdasdsad</title>
+      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</guid>
+      <description>&lt;p&gt;Đây là bài viết đầu tiên trong blog Hugo của tôi.
+Blog chia sẻ kiến thức &lt;strong&gt;Java &amp;amp; JavaScript&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fetch API trong JavaScript</title>
@@ -119,6 +127,13 @@ Trong Java, socket giúp client và server trao đổi dữ liệu.&lt;/p&gt;
 &lt;h2 id=&#34;ví-dụ-đơn-giản&#34;&gt;Ví dụ đơn giản&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Socket socket &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Socket(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt;, 1234);
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://Tiennnn1107.github.io/TranTanTien-blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/about/</guid>
+      <description>Một chút thông tin về Trần Tấn Tiến</description>
     </item>
   </channel>
 </rss>

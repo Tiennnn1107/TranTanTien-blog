@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Trang chủ"
 draft: false
 ---
@@ -8,4 +8,4 @@ draft: false
 Blog này chia sẻ kiến thức **lập trình mạng**  
 sử dụng **Java & JavaScript**.
 
-👉 Vào mục **Blog** để xem các bài viết.
+👉 Vào mục **Blog** để xem các bài viết. -->

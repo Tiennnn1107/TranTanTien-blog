@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="light">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.153.2"><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.153.2"><script src="/TranTanTien-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=TranTanTien-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Tran Tan Tien Blog</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Blog lập trình của Trần Tấn Tiến</title>
 
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="https://Tiennnn1107.github.io/TranTanTien-blog/">
-<link crossorigin="anonymous" href="./TranTanTien-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://Tiennnn1107.github.io/TranTanTien-blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://Tiennnn1107.github.io/TranTanTien-blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://Tiennnn1107.github.io/TranTanTien-blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://Tiennnn1107.github.io/TranTanTien-blog/apple-touch-icon.png">
-<link rel="mask-icon" href="https://Tiennnn1107.github.io/TranTanTien-blog/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/TranTanTien-blog/">
+<link crossorigin="anonymous" href="/TranTanTien-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/TranTanTien-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/TranTanTien-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/TranTanTien-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/TranTanTien-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/TranTanTien-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://Tiennnn1107.github.io/TranTanTien-blog/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://Tiennnn1107.github.io/TranTanTien-blog/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/TranTanTien-blog/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="http://localhost:1313/TranTanTien-blog/index.json" title="json">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/TranTanTien-blog/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,43 +30,56 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
 </noscript>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://Tiennnn1107.github.io/TranTanTien-blog/">
-  <meta property="og:site_name" content="Tran Tan Tien Blog">
-  <meta property="og:title" content="Trang chủ">
-  <meta property="og:description" content="👋 Chào mừng đến với Blog của Trần Tấn Tiến Blog này chia sẻ kiến thức lập trình mạng
-sử dụng Java &amp; JavaScript.
-👉 Vào mục Blog để xem các bài viết.">
-  <meta property="og:locale" content="vi">
-  <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Trang chủ">
-<meta name="twitter:description" content="">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Tran Tan Tien Blog",
-  "url": "https://Tiennnn1107.github.io/TranTanTien-blog/",
-  "description": "",
-  "logo": "https://Tiennnn1107.github.io/TranTanTien-blog/favicon.ico",
-  "sameAs": [
-      
-  ]
-}
 </script>
 </head>
 <body class="list" id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://Tiennnn1107.github.io/TranTanTien-blog/" accesskey="h" title="Tran Tan Tien Blog (Alt + H)">Tran Tan Tien Blog</a>
+            <a href="http://localhost:1313/TranTanTien-blog/" accesskey="h" title="Blog lập trình của Trần Tấn Tiến (Alt + H)">Blog lập trình của Trần Tấn Tiến</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -91,127 +105,59 @@ sử dụng Java &amp; JavaScript.
         </div>
         <ul id="menu">
             <li>
-                <a href="https://Tiennnn1107.github.io/" title="Trang chủ">
-                    <span>Trang chủ</span>
+                <a href="http://localhost:1313/TranTanTien-blog/" title="🏠 Trang chủ">
+                    <span class="active">🏠 Trang chủ</span>
                 </a>
             </li>
             <li>
-                <a href="https://Tiennnn1107.github.io/posts/" title="Bài viết">
-                    <span>Bài viết</span>
+                <a href="http://localhost:1313/TranTanTien-blog/posts/" title="✍️ Bài viết">
+                    <span>✍️ Bài viết</span>
                 </a>
             </li>
             <li>
-                <a href="https://Tiennnn1107.github.io/about/" title="Giới thiệu">
-                    <span>Giới thiệu</span>
+                <a href="http://localhost:1313/TranTanTien-blog/search/" title="🔍 Tìm kiếm">
+                    <span>🔍 Tìm kiếm</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/TranTanTien-blog/about/" title="👨‍💻 Giới thiệu">
+                    <span>👨‍💻 Giới thiệu</span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<div class="post-content"><h1 id="-chào-mừng-đến-với-blog-của-trần-tấn-tiến">👋 Chào mừng đến với Blog của Trần Tấn Tiến<a hidden class="anchor" aria-hidden="true" href="#-chào-mừng-đến-với-blog-của-trần-tấn-tiến">#</a></h1>
-<p>Blog này chia sẻ kiến thức <strong>lập trình mạng</strong><br>
-sử dụng <strong>Java &amp; JavaScript</strong>.</p>
-<p>👉 Vào mục <strong>Blog</strong> để xem các bài viết.</p>
-
-
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <h1>Chào mừng đến với Blog của Tiến 👋</h1>
+        <span>Chia sẻ kiến thức về lập trình mạng, Java &amp; JavaScript.</span><div class="social-icons" >
 </div>
 
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Bài viết đầu tiên
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Đây là bài viết đầu tiên trong blog Hugo của tôi. Blog chia sẻ kiến thức Java &amp; JavaScript.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Bài viết đầu tiên" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/"></a>
-</article>
+        <div class="buttons">
+            <a class="button" href="posts" rel="noopener" title="Đọc bài viết">
+                <span class="button-inner">
+                    Đọc bài viết
+                </span>
+            </a>
+            <a class="button" href="https://github.com/Tiennnn1107" rel="noopener" title="Github">
+                <span class="button-inner">
+                    Github&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Các lỗi thường gặp khi lập trình Socket Java
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Một số lỗi phổ biến Port đã được sử dụng Không kết nối được server Đọc dữ liệu bị treo Nguyên nhân Server chưa chạy Firewall chặn Sai IP hoặc port Cách khắc phục Kiểm tra port Bắt exception Log lỗi rõ ràng </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Các lỗi thường gặp khi lập trình Socket Java" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Fetch API trong JavaScript
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Fetch API là gì? Fetch API dùng để gửi request HTTP từ trình duyệt.
-Ví dụ fetch(&#34;https://api.example.com/data&#34;) .then(res =&gt; res.json()) .then(data =&gt; console.log(data)); </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Fetch API trong JavaScript" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Java là gì? Ứng dụng trong lập trình mạng
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Java là gì? Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems. Java nổi bật với khả năng chạy trên nhiều nền tảng nhờ cơ chế JVM.
-Vì sao Java phù hợp với lập trình mạng? Hỗ trợ thư viện mạng mạnh (java.net) Chạy ổn định trên server Bảo mật tốt Được dùng nhiều trong hệ thống Client–Server Ứng dụng thực tế Server backend Ứng dụng chat Hệ thống phân tán </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Java là gì? Ứng dụng trong lập trình mạng" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">JavaScript là gì?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>JavaScript là gì? JavaScript là ngôn ngữ lập trình chạy trên trình duyệt.
-Vai trò Tạo website động Gửi request Xử lý dữ liệu phía client Kết hợp với backend JavaScript thường kết hợp với Java để xây dựng web hoàn chỉnh.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to JavaScript là gì?" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Mô hình Client – Server trong Java
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Client – Server là gì? Client gửi yêu cầu, Server xử lý và trả kết quả.
-Vai trò Client: giao diện người dùng Server: xử lý logic Java áp dụng Java thường dùng mô hình này cho:
-Ứng dụng quản lý Website backend Hệ thống mạng nội bộ </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Mô hình Client – Server trong Java" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Socket trong Java là gì?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Socket là gì? Socket là điểm giao tiếp giữa hai máy tính thông qua mạng. Trong Java, socket giúp client và server trao đổi dữ liệu.
-Các lớp chính Socket: phía client ServerSocket: phía server Ví dụ đơn giản Socket socket = new Socket(&#34;localhost&#34;, 1234); </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 phút</span></footer>
-  <a class="entry-link" aria-label="post link to Socket trong Java là gì?" href="https://Tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/"></a>
-</article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://Tiennnn1107.github.io/TranTanTien-blog/">Tran Tan Tien Blog</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/TranTanTien-blog/">Blog lập trình của Trần Tấn Tiến</a></span> · 
 
     <span>
         Powered by
