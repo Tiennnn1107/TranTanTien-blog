@@ -1,14 +1,31 @@
 baseURL = "https://Tiennnn1107.github.io/TranTanTien-blog/"
+languageCode = "vi"
+title = "Tran Tan Tien Blog"
+theme = "PaperMod"
+
 publishDir = "docs"
 relativeURLs = true
 canonifyURLs = true
-languageCode = "vi"
-title = "Blog lập trình của Trần Tấn Tiến"
-theme = "PaperMod"
 
 [params]
+  defaultTheme = "light"
   ShowReadingTime = true
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+
+[menu]
+  [[menu.main]]
+    name = "Trang chủ"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Bài viết"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Giới thiệu"
+    url = "/about/"
+    weight = 3
