@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Trang chủ on Blog lập trình của Trần Tấn Tiến</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost/</link>
     <description>Recent content in Trang chủ on Blog lập trình của Trần Tấn Tiến</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>vi</language>
     <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Các lỗi thường gặp khi lập trình Socket Java</title>
-      <link>http://localhost:1313/posts/loi-socket-java/</link>
+      <link>http://localhost/posts/loi-socket-java/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/loi-socket-java/</guid>
+      <guid>http://localhost/posts/loi-socket-java/</guid>
       <description>&lt;h2 id=&#34;một-số-lỗi-phổ-biến&#34;&gt;Một số lỗi phổ biến&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Port đã được sử dụng&lt;/li&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Fetch API trong JavaScript</title>
-      <link>http://localhost:1313/posts/fetch-api/</link>
+      <link>http://localhost/posts/fetch-api/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fetch-api/</guid>
+      <guid>http://localhost/posts/fetch-api/</guid>
       <description>&lt;h2 id=&#34;fetch-api-là-gì&#34;&gt;Fetch API là gì?&lt;/h2&gt;
 &lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
 &lt;h2 id=&#34;ví-dụ&#34;&gt;Ví dụ&lt;/h2&gt;
@@ -47,9 +47,9 @@
     </item>
     <item>
       <title>Java là gì? Ứng dụng trong lập trình mạng</title>
-      <link>http://localhost:1313/posts/java-la-gi/</link>
+      <link>http://localhost/posts/java-la-gi/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-la-gi/</guid>
+      <guid>http://localhost/posts/java-la-gi/</guid>
       <description>&lt;h2 id=&#34;java-là-gì&#34;&gt;Java là gì?&lt;/h2&gt;
 &lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems.
 Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tảng&lt;/strong&gt; nhờ cơ chế JVM.&lt;/p&gt;
@@ -69,9 +69,9 @@ Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tả
     </item>
     <item>
       <title>JavaScript là gì?</title>
-      <link>http://localhost:1313/posts/javascript-la-gi/</link>
+      <link>http://localhost/posts/javascript-la-gi/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-la-gi/</guid>
+      <guid>http://localhost/posts/javascript-la-gi/</guid>
       <description>&lt;h2 id=&#34;javascript-là-gì&#34;&gt;JavaScript là gì?&lt;/h2&gt;
 &lt;p&gt;JavaScript là ngôn ngữ lập trình chạy trên trình duyệt.&lt;/p&gt;
 &lt;h2 id=&#34;vai-trò&#34;&gt;Vai trò&lt;/h2&gt;
@@ -85,9 +85,9 @@ Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tả
     </item>
     <item>
       <title>Mô hình Client – Server trong Java</title>
-      <link>http://localhost:1313/posts/client-server-java/</link>
+      <link>http://localhost/posts/client-server-java/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/client-server-java/</guid>
+      <guid>http://localhost/posts/client-server-java/</guid>
       <description>&lt;h2 id=&#34;client--server-là-gì&#34;&gt;Client – Server là gì?&lt;/h2&gt;
 &lt;p&gt;Client gửi yêu cầu, Server xử lý và trả kết quả.&lt;/p&gt;
 &lt;h2 id=&#34;vai-trò&#34;&gt;Vai trò&lt;/h2&gt;
@@ -105,9 +105,9 @@ Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tả
     </item>
     <item>
       <title>Socket trong Java là gì?</title>
-      <link>http://localhost:1313/posts/socket-trong-java/</link>
+      <link>http://localhost/posts/socket-trong-java/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/socket-trong-java/</guid>
+      <guid>http://localhost/posts/socket-trong-java/</guid>
       <description>&lt;h2 id=&#34;socket-là-gì&#34;&gt;Socket là gì?&lt;/h2&gt;
 &lt;p&gt;Socket là điểm giao tiếp giữa hai máy tính thông qua mạng.
 Trong Java, socket giúp client và server trao đổi dữ liệu.&lt;/p&gt;
