@@ -1,55 +1,131 @@
-/* 1. Hiện đầy đủ tên và xóa khoảng cách chữ quá rộng */
-.profile_inner h1 {
+/* =========================================
+   1. TIÊU ĐỀ & TÊN (FIX KHOẢNG CÁCH & MÀU SẮC)
+   ========================================= */
+   .profile_inner h1 {
     font-size: 32px !important;
-    font-weight: 700 !important;
-    letter-spacing: 1px !important; /* Fix lỗi chữ T R A N bị thưa */
+    font-weight: 800 !important;
+    letter-spacing: -0.5px !important; /* Thu hẹp lại một chút cho hiện đại */
     white-space: nowrap !important;
     text-transform: uppercase;
+    background: linear-gradient(135deg, #2563eb, #7c3aed); /* Màu gradient xanh-tím chuyên nghiệp */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px !important;
 }
 
-/* 2. Ép ảnh đại diện hiển thị (Fix lỗi hình xám) */
+/* 2. ẢNH ĐẠI DIỆN (PROFILE IMAGE) */
 .profile_inner img {
     display: block !important;
-    border-radius: 50% !important; /* Làm tròn cho giống Profile */
-    border: 2px solid #eee;
+    border-radius: 50% !important;
+    border: 3px solid #3b82f6; /* Viền màu xanh đồng bộ */
     object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 3. Đưa 2 nút sát lại gần nhau */
+.profile_inner img:hover {
+    transform: scale(1.05) rotate(2deg); /* Hiệu ứng nhẹ khi di chuột */
+}
+
+/* 3. NÚT BẤM (BUTTONS) - SÁT NHAU & ĐẸP HƠN */
 .profile_inner .buttons {
     display: flex !important;
-    flex-direction: row !important; /* Ép nằm ngang */
+    flex-direction: row !important;
     justify-content: center !important;
-    gap: 10px !important; /* Khoảng cách giữa 2 nút rất nhỏ */
-    margin-top: 20px !important;
+    gap: 12px !important;
+    margin-top: 25px !important;
 }
 
 .profile_inner .buttons .button {
-    margin: 0 !important; /* Xóa margin thừa gây xa cách */
-    padding: 10px 20px !important;
-    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 8px 18px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    background: #3b82f6 !important; /* Màu xanh chủ đạo */
+    color: white !important;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
 }
+
+.profile_inner .buttons .button:hover {
+    background: #2563eb !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* =========================================
+   4. KHU VỰC THÔNG TIN THÊM (PROFILE EXTRA)
+   ========================================= */
 .profile-extra {
-    margin-top: 2rem;
-    text-align: center;
+    margin-top: 2.5rem;
+    padding: 20px;
+    background: rgba(var(--primary-rgb), 0.03); /* Tận dụng màu chủ đạo của theme */
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    text-align: left; /* Chuyển sang canh lề trái cho dễ đọc hơn */
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-extra h2 {
-    margin-top: 1.5rem;
-    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.profile-extra ul {
-    list-style: none;
-    padding: 0;
+.profile-extra h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(59, 130, 246, 0.2);
 }
 
-.profile-extra li {
-    margin: 6px 0;
+/* Kỹ năng dạng TAGS */
+.profile-extra ul.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
 }
 
-.subtitle {
-    display: block;
-    margin-bottom: 1rem;
-    opacity: 0.8;
+.profile-extra ul.skills li {
+    background: #dbeafe;
+    color: #1e40af;
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0 !important;
+    border: 1px solid #bfdbfe;
+}
+
+/* Dự án dạng LIST */
+.profile-extra ul.projects li {
+    padding: 8px 12px;
+    background: white;
+    margin: 8px 0 !important;
+    border-radius: 8px;
+    border-left: 4px solid #10b981; /* Màu xanh lá cho Java/Backend */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 0.95rem;
+}
+
+/* DARK MODE SUPPORT */
+.dark .profile-extra {
+    background: rgba(255, 255, 255, 0.05);
+}
+.dark .profile-extra h2 { color: #60a5fa; }
+.dark .profile-extra ul.skills li {
+    background: #1e293b;
+    color: #93c5fd;
+    border-color: #334155;
+}
+.dark .profile-extra ul.projects li {
+    background: #2a2a2b;
+    color: #e5e7eb;
 }
