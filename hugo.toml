@@ -1,4 +1,5 @@
 baseURL = "https://Tiennnn1107.github.io/TranTanTien-blog/"
+publishDir = "docs"
 languageCode = "vi"
 title = "Blog lập trình của Trần Tấn Tiến"
 theme = "PaperMod"
