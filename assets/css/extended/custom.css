@@ -1,103 +1,31 @@
-/* 1. Nhập Font chữ hiện đại (Montserrat) */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
-
-:root {
-    --primary: #1a1a1a;
-    --theme: #ffffff;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-    color: #1a1a1a;
-}
-
-/* 2. Cấu trúc Portfolio: Chữ bên trái, Ảnh bên phải */
-.profile_inner {
-    display: flex;
-    flex-direction: row-reverse; /* Đảo ảnh sang phải, chữ sang trái */
-    align-items: center;
-    justify-content: center;
-    column-gap: 60px;
-    padding: 80px 5% !important;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* 3. Tên thương hiệu (Ví dụ: TIEN TRAN //) */
+/* 1. Hiện đầy đủ tên và xóa khoảng cách chữ quá rộng */
 .profile_inner h1 {
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 6px;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important; /* Fix lỗi chữ T R A N bị thưa */
+    white-space: nowrap !important;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    color: #333;
 }
 
-/* 4. Câu Slogan cực to và đậm như hình mẫu */
-.profile_inner .subtitle {
-    font-size: clamp(40px, 5vw, 80px); /* Tự co giãn theo màn hình */
-    font-weight: 900;
-    line-height: 1.0;
-    text-transform: uppercase;
-    color: #000;
-    margin-bottom: 30px;
-}
-
-/* 5. Tùy chỉnh ảnh chân dung */
+/* 2. Ép ảnh đại diện hiển thị (Fix lỗi hình xám) */
 .profile_inner img {
-    border-radius: 4px;
-    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.05); /* Đổ bóng khối phẳng */
-    transition: transform 0.5s ease;
+    display: block !important;
+    border-radius: 50% !important; /* Làm tròn cho giống Profile */
+    border: 2px solid #eee;
+    object-fit: cover;
 }
 
-.profile_inner img:hover {
-    transform: scale(1.02);
+/* 3. Đưa 2 nút sát lại gần nhau */
+.profile_inner .buttons {
+    display: flex !important;
+    flex-direction: row !important; /* Ép nằm ngang */
+    justify-content: center !important;
+    gap: 10px !important; /* Khoảng cách giữa 2 nút rất nhỏ */
+    margin-top: 20px !important;
 }
 
-/* 6. Nút bấm tối giản (Minimalist Button) */
 .profile_inner .buttons .button {
-    background: #000 !important;
-    color: #fff !important;
-    padding: 12px 30px !important;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    border-radius: 0 !important; /* Vuông vức chuyên nghiệp */
-    transition: 0.3s;
-    border: 1px solid #000 !important;
-}
-
-.profile_inner .buttons .button:hover {
-    background: transparent !important;
-    color: #000 !important;
-    transform: translateY(-3px);
-}
-
-/* 7. Ẩn danh sách bài viết thừa tại trang chủ */
-.home-posts {
-    display: none;
-}
-
-/* 8. Tùy chỉnh Menu phía trên */
-.header {
-    background: #fff;
-    border-bottom: 1px solid #eee;
-}
-
-.nav a {
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-/* Responsive cho điện thoại */
-@media (max-width: 768px) {
-    .profile_inner {
-        flex-direction: column; /* Chuyển về cột trên điện thoại */
-        text-align: center;
-    }
-    .profile_inner .subtitle {
-        font-size: 40px;
-    }
+    margin: 0 !important; /* Xóa margin thừa gây xa cách */
+    padding: 10px 20px !important;
+    border-radius: 4px !important;
 }

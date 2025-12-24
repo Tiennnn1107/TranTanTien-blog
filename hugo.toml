@@ -18,7 +18,7 @@ theme = "PaperMod"
     # Cấu hình Profile Mode dạng Portfolio
     [params.profileMode]
         enabled = true
-        title = "TRAN TAN TIEN"
+        title = "Trần Tấn Tiến"
         subtitle = "Chậm cũng được ,không dừng lại là được."
         imageTitle = "Trần Tấn Tiến"
         # Thay link ảnh chân dung của bạn vào đây
