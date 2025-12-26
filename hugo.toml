@@ -71,11 +71,11 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "posts"
     name = "POSTS"
-    url = "posts/"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]
     identifier = "about"
     name = "ABOUT"
-    url = "about/"
+    url = "/about/"
     weight = 3
