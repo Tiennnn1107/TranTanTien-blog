@@ -18,7 +18,7 @@ Với niềm đam mê dành cho lập trình, mình tạo ra blog này để lư
 ### 🎓 Học vấn
 * **Trường:** Đại học Công nghệ TP.HCM (HUTECH)
 * **Chuyên ngành:** Công nghệ thông tin
-* **Niên khóa:** 2021 - 2025
+* **Niên khóa:** 20222 - 2026
 
 ---
 
@@ -26,7 +26,7 @@ Với niềm đam mê dành cho lập trình, mình tạo ra blog này để lư
 Bạn có thể tìm thấy mình qua các nền tảng sau:
 
 * **GitHub:** [github.com/Tiennnn1107](https://github.com/Tiennnn1107)
-* **Email:** [Email của bạn]@gmail.com
+* **Email:** [tantienlk2020]@gmail.com
 * **Facebook:** [Link Facebook của bạn]
 
 > *"Học không bao giờ là muộn, và chia sẻ là cách tốt nhất để học lại một lần nữa."*
