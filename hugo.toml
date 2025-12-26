@@ -1,4 +1,4 @@
-baseURL = "https://Tiennnn1107.github.io/TranTanTien-blog/"
+baseURL = "https://tiennnn1107.github.io/TranTanTien-blog/"
 publishDir = "docs"
 languageCode = "vi-vn"
 title = "Trần Tấn Tiến | Developer"
@@ -24,16 +24,15 @@ theme = "PaperMod"
   description = "Sinh viên CNTT | Developer | Chậm cũng được, không dừng lại là được."
   keywords = ["Developer", "Java", "Spring Boot", "Backend", "Portfolio"]
 
-  # Giao diện (CỐ ĐỊNH)
+  # ===== GIAO DIỆN =====
   defaultTheme = "dark"
-  disableThemeToggle = true   # 🔥 TẮT HẲN NGÀY / ĐÊM
+  disableThemeToggle = true
   disableSpecial1stPost = true
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
   ShowShareButtons = false
-
 
   assets = { disableFingerprinting = true }
 
@@ -42,20 +41,20 @@ theme = "PaperMod"
     enabled = true
     title = "Trần Tấn Tiến"
     subtitle = "Developer | Chậm cũng được, không dừng lại là được."
-    imageUrl = "/images/avatar.jpg"
+    imageUrl = "images/avartar.jpg" # 🔥 KHÔNG hardcode subfolder
     imageWidth = 380
     imageHeight = 380
     imageTitle = "Trần Tấn Tiến"
 
     [[params.profileMode.buttons]]
       name = "Bài Viết"
-      url = "/posts/"
+      url = "posts"
 
     [[params.profileMode.buttons]]
       name = "ABOUT"
-      url = "/about/"
+      url = "about"
 
-  # Social icons (khuyến nghị)
+  # ===== SOCIAL =====
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Tiennnn1107"
@@ -66,17 +65,17 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "home"
     name = "HOME"
-    url = "/"
+    url = ""
     weight = 1
 
   [[menu.main]]
     identifier = "posts"
     name = "POSTS"
-    url = "/posts/"
+    url = "posts/"
     weight = 2
 
   [[menu.main]]
     identifier = "about"
     name = "ABOUT"
-    url = "/about/"
+    url = "about/"
     weight = 3
