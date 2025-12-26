@@ -49,11 +49,11 @@ theme = "PaperMod"
 
     [[params.profileMode.buttons]]
       name = "Bài Viết"
-      url = "posts"
+      url = "/posts/"
 
     [[params.profileMode.buttons]]
       name = "ABOUT"
-      url = "about"
+      url = "/about/"
 
   # Social icons (khuyến nghị)
   [[params.socialIcons]]
