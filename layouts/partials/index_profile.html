@@ -28,7 +28,7 @@
             <div class="image-side">
                 <div class="frame-glass">
                     {{- if .Site.Params.profileMode.imageUrl }}
-                    <img src="{{ .Site.Params.profileMode.imageUrl | absURL }}" alt="Profile Image">
+                    <img src="{{ .Site.Params.profileMode.imageUrl | relURL }}" alt="Profile Image">
                     {{- end }}
                 </div>
             </div>
