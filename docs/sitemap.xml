@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</loc><lastmod>2025-12-23T00:00:00+00:00</lastmod></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/categories/</loc></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/about/</loc></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/tags/</loc></url><url><loc>https://tiennnn1107.github.io/TranTanTien-blog/search/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/TranTanTien-blog/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/loi-socket-java/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/bai-viet-dau-tien/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/fetch-api/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/java-la-gi/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/javascript-la-gi/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/client-server-java/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/posts/socket-trong-java/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/TranTanTien-blog/search/</loc>
+  </url>
+</urlset>

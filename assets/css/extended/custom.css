@@ -262,3 +262,55 @@ body.scrolled .top-link {
     opacity: 1;
     visibility: visible;
 }
+.post-title {
+    color: #4aa3ff; /* màu mới */
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-shadow:
+        0 0 3px #4aa3ff,
+        0 0 6px #4aa3ff,
+        0 0 12px #7fc0ff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.post-title:hover {
+    color: #7fc0ff;
+    text-shadow:
+        0 0 5px #7fc0ff,
+        0 0 10px #7fc0ff,
+        0 0 20px #b0e0ff;
+}/* Tiêu đề trong danh sách bài viết */
+.posts-list h2.entry-title, 
+.posts-list a.entry-title {
+    color: #4aa3ff; /* màu neon xanh */
+    font-weight: 700;
+    text-shadow:
+        0 0 5px #4aa3ff,
+        0 0 10px #4aa3ff,
+        0 0 20px #7fc0ff,
+        0 0 30px #7fc0ff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hiệu ứng hover glow mạnh hơn */
+.posts-list h2.entry-title:hover,
+.posts-list a.entry-title:hover {
+    color: #7fc0ff;
+    text-shadow:
+        0 0 10px #7fc0ff,
+        0 0 20px #7fc0ff,
+        0 0 40px #b0e0ff,
+        0 0 60px #b0e0ff;
+}/* Áp dụng cho tiêu đề bài viết trong danh sách */
+.post-entry .entry-header h2, 
+.post-entry .entry-link,
+h2.entry-hint-parent {
+    color: #4aa3ff !important; /* Màu xanh neon */
+    transition: all 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào */
+.post-entry:hover .entry-header h2 {
+    color: #ff6b6b !important; /* Đổi sang màu đỏ cam khi hover */
+    text-shadow: 0 0 10px #ff6b6b;
+}
