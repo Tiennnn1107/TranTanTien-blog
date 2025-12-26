@@ -1,95 +1,208 @@
-/* TỔNG THỂ LAYOUT XUNG QUANH */
-body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Nền gradient nhẹ nhàng */
-    min-height: 100vh;
+/* ================= Hero tổng thể ================= */
+.portfolio-modern {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow: hidden;
 }
 
-.dark body {
-    background: linear-gradient(135deg, #1a1a1b 0%, #2e2e33 100%); /* Nền tối cho Dark Mode */
+/* Slogan backdrop */
+.slogan-backdrop {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    opacity: 0.08;
+    pointer-events: none;
+    white-space: nowrap;
+    animation: moveSlogan 25s linear infinite;
 }
 
-/* KHỐI PROFILE CHÍNH */
-.profile_inner {
-    background: rgba(255, 255, 255, 0.9); /* Trắng trong suốt nhẹ */
-    backdrop-filter: blur(10px); /* Hiệu ứng kính mờ (Glassmorphism) */
-    border-radius: 24px;
-    padding: 50px 30px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    margin-top: 50px !important;
-    border: 1px solid rgba(255,255,255,0.3);
+.slogan-item {
+    display: inline-block;
+    margin: 0 20px;
 }
 
-.dark .profile_inner {
-    background: rgba(46, 46, 51, 0.9);
-    border: 1px solid rgba(255,255,255,0.05);
+.main-color {
+    color: #ff6b6b;
 }
 
-/* TÊN VÀ TIÊU ĐỀ */
-.profile_inner h1 {
-    font-size: 40px !important;
-    letter-spacing: -1px !important;
-    background: linear-gradient(to right, #2563eb, #9333ea);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
+@keyframes moveSlogan {
+    0% { transform: translateX(-50%) translateY(0); }
+    100% { transform: translateX(-50%) translateY(-100%); }
 }
 
-/* CÁC NÚT (BUTTONS) - ĐÃ CĂN CHỈNH SÁT NHAU */
-.profile_inner .buttons {
-    display: flex !important;
-    gap: 12px !important;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.profile_inner .buttons .button {
-    border-radius: 12px !important;
-    padding: 12px 24px !important;
-    font-weight: 600;
-    transition: transform 0.2s, box-shadow 0.2s;
-    background: #2563eb !important; /* Màu xanh đậm hơn */
-    color: white !important;
-}
-
-.profile_inner .buttons .button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
-}
-
-/* KHỐI PROJECT/SKILLS PHÍA DƯỚI */
-.profile-extra {
-    max-width: 650px;
-    margin: 40px auto;
-    text-align: left;
-}
-
-.profile-extra h2 {
-    font-size: 1.3rem;
-    color: #2563eb;
-    margin-bottom: 15px;
+/* Hero overlay */
+.hero-overlay {
+    position: relative;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    padding: 100px 50px;
+    min-height: 80vh;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
 }
 
-.profile-extra ul.skills {
+/* Hero container chia 2 cột */
+.hero-container {
     display: flex;
+    gap: 60px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
-    padding: 0;
 }
 
-.profile-extra ul.skills li {
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    padding: 6px 14px;
-    border-radius: 99px;
-    font-size: 0.9rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+/* Info side */
+.info-side {
+    flex: 1 1 400px;
+    z-index: 1;
 }
 
-.dark .profile-extra ul.skills li {
-    background: #374151;
-    border-color: #4b5563;
-    color: #f3f4f6;
+.role-tag {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 18px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(5px);
+}
+
+/* Tên neon */
+.display-name {
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff6b6b,
+        0 0 10px #ff6b6b,
+        0 0 20px #ff6b6b,
+        0 0 40px #ff4757,
+        0 0 80px #ff4757;
+    animation: flicker 2s infinite alternate;
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+    20%, 22%, 24%, 55% { opacity: 0.6; }
+}
+
+.motto {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+/* Buttons */
+.cta-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.link-item {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.link-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ff6b6b;
+    transition: all 0.3s ease;
+    z-index: 0;
+}
+
+.link-item:hover::after {
+    left: 0;
+}
+
+.link-item span {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.link-item:hover span {
+    transform: translateX(5px);
+}
+
+/* Image side với Glassmorphism */
+.image-side {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.frame-glass {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%; /* hình tròn */
+    padding: 5px;
+    border: 2px solid rgba(255,255,255,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-glass img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%; /* hình tròn */
+    object-fit: cover;
+}
+
+.frame-glass:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .display-name {
+        font-size: 3rem;
+    }
+
+    .motto {
+        font-size: 1.1rem;
+    }
+
+    .link-item {
+        padding: 10px 25px;
+    }
+
+    .frame-glass {
+        width: 250px;
+        height: 250px;
+    }
 }

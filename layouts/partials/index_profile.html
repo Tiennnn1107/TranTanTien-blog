@@ -1,77 +1,42 @@
-<div class="profile">
-    {{- with site.Params.profileMode }}
-    <div class="profile_inner">
-        {{- if .imageUrl -}}
-        {{- $img := "" }}
-        {{- if not (urls.Parse .imageUrl).IsAbs }}
-            {{- $img = resources.Get .imageUrl }}
-        {{- end }}
-        {{- if $img }}
-            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-            {{- if hugo.IsExtended -}}
-                {{- $processableFormats = $processableFormats | append "webp" -}}
-            {{- end -}}
-            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
-                {{- else if .imageHeight }}
-                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
-                {{- else if .imageWidth }}
-                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
-                {{- else }}
-                    {{- $img = $img.Resize "150x150" }}
-                {{- end }}
-            {{- end }}
-            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" 
-                title="{{ .imageTitle }}" height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- else }}
-            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" 
-                title="{{ .imageTitle }}" height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- end }}
-        {{- end }}
-
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span class="subtitle">{{ .subtitle | markdownify }}</span>
-
-        {{- partial "social_icons.html" -}}
-
-        <div class="profile-extra">
-            <h2>💻 Kỹ năng chính</h2>
-            <ul class="skills">
-                <li>Java • Spring Boot</li>
-                <li>MySQL • SQL</li>
-                <li>HTML • CSS • JS</li>
-                <li>Git • GitHub</li>
-            </ul>
-
-            <h2>🚀 Dự án tiêu biểu</h2>
-            <ul class="projects">
-                <li>☕ Hệ thống quản lý quán cà phê</li>
-                <li>🔐 Ứng dụng mã hóa Elliptic Curve</li>
-                <li>📱 Quản lý sửa chữa điện thoại</li>
-            </ul>
-        </div>
-
-        {{- with .buttons }}
-        <div class="buttons">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-                <span class="button-inner">
-                    {{ .name }}
-                    {{- if (findRE "://" .url) }}&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                    {{- end }}
-                </span>
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
+<div class="portfolio-modern">
+    <!-- Slogan động -->
+    <div class="slogan-backdrop">
+        <div class="slogan-item">CHẬM CŨNG ĐƯỢC</div>
+        <div class="slogan-item main-color">KHÔNG DỪNG LẠI</div>
+        <div class="slogan-item">LÀ ĐƯỢC.</div>
     </div>
-    {{- end }}
+
+    <!-- Hero chính -->
+    <div class="hero-overlay">
+        <div class="hero-container">
+            <!-- Thông tin -->
+            <div class="info-side">
+                <span class="role-tag">DEVELOPER</span>
+                <h1 class="display-name">TRẦN TÂN TIẾN</h1>
+                <p class="motto">{{ .Site.Params.profileMode.subtitle }}</p>
+                
+                <div class="cta-links">
+                    {{- range .Site.Params.profileMode.buttons }}
+                    <a href="{{ .url | relURL }}" class="link-item">
+                        {{ .name }} <span class="icon-arrow">↗</span>
+                    </a>
+                    {{- end }}
+                </div>
+            </div>
+
+            <!-- Ảnh profile -->
+            <div class="image-side">
+                <div class="frame-glass">
+                    {{- if .Site.Params.profileMode.imageUrl }}
+                    <img src="{{ .Site.Params.profileMode.imageUrl | absURL }}" alt="Profile Image">
+                    {{- end }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio -->
+    <div class="audio-widget">
+        {{ partial "audio.html" . }}
+    </div>
 </div>

@@ -1,0 +1,27 @@
+<div id="music-player" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+    <button id="toggle-music" style="padding: 8px 12px; border-radius: 8px; background: #4f46e5; color: white; border: none; cursor: pointer;">
+      🔊 Bật nhạc
+    </button>
+    <audio id="bg-music" loop>
+      <source src="{{ "music/background.mp3" | absURL }}" type="audio/mpeg">
+      Trình duyệt của bạn không hỗ trợ audio.
+    </audio>
+  </div>
+  
+  <script>
+  const music = document.getElementById('bg-music');
+  const btn = document.getElementById('toggle-music');
+  let playing = false;
+  
+  btn.addEventListener('click', () => {
+    if (!playing) {
+      music.play();
+      btn.textContent = "🔇 Tắt nhạc";
+    } else {
+      music.pause();
+      btn.textContent = "🔊 Bật nhạc";
+    }
+    playing = !playing;
+  });
+  </script>
+  
