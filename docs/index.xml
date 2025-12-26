@@ -1,155 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Trần Tấn Tiến | Developer</title>
-    <link>https://Tiennnn1107.github.io/TranTanTien-blog/</link>
-    <description>Recent content on Trần Tấn Tiến | Developer</description>
-    <generator>Hugo -- 0.153.2</generator>
-    <language>vi-vn</language>
-    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Tiennnn1107.github.io/TranTanTien-blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Các lỗi thường gặp khi lập trình Socket Java</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</guid>
-      <description>&lt;h2 id=&#34;một-số-lỗi-phổ-biến&#34;&gt;Một số lỗi phổ biến&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Trần Tấn Tiến | Developer</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/</link><description>Recent content on Trần Tấn Tiến | Developer</description><generator>Hugo -- 0.153.2</generator><language>vi-vn</language><lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Tiennnn1107.github.io/TranTanTien-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Các lỗi thường gặp khi lập trình Socket Java</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</guid><description>&lt;h2 id="một-số-lỗi-phổ-biến"&gt;Một số lỗi phổ biến&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Port đã được sử dụng&lt;/li&gt;
 &lt;li&gt;Không kết nối được server&lt;/li&gt;
 &lt;li&gt;Đọc dữ liệu bị treo&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;nguyên-nhân&#34;&gt;Nguyên nhân&lt;/h2&gt;
+&lt;h2 id="nguyên-nhân"&gt;Nguyên nhân&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Server chưa chạy&lt;/li&gt;
 &lt;li&gt;Firewall chặn&lt;/li&gt;
 &lt;li&gt;Sai IP hoặc port&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;cách-khắc-phục&#34;&gt;Cách khắc phục&lt;/h2&gt;
+&lt;h2 id="cách-khắc-phục"&gt;Cách khắc phục&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Kiểm tra port&lt;/li&gt;
 &lt;li&gt;Bắt exception&lt;/li&gt;
 &lt;li&gt;Log lỗi rõ ràng&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>dasdasdsad</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</guid>
-      <description>&lt;p&gt;Đây là bài viết đầu tiên trong blog Hugo của tôi.
-Blog chia sẻ kiến thức &lt;strong&gt;Java &amp;amp; JavaScript&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fetch API trong JavaScript</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</guid>
-      <description>&lt;h2 id=&#34;fetch-api-là-gì&#34;&gt;Fetch API là gì?&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>dasdasdsad</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</guid><description>&lt;p&gt;Đây là bài viết đầu tiên trong blog Hugo của tôi.
+Blog chia sẻ kiến thức &lt;strong&gt;Java &amp;amp; JavaScript&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Fetch API trong JavaScript</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</guid><description>&lt;h2 id="fetch-api-là-gì"&gt;Fetch API là gì?&lt;/h2&gt;
 &lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
-&lt;h2 id=&#34;ví-dụ&#34;&gt;Ví dụ&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;h2 id="ví-dụ"&gt;Ví dụ&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;fetch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://api.example.com/data&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;res&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;res&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;json&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://api.example.com/data&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;res&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;json&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;data&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Java là gì? Ứng dụng trong lập trình mạng</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</guid>
-      <description>&lt;h2 id=&#34;java-là-gì&#34;&gt;Java là gì?&lt;/h2&gt;
+&lt;/div&gt;</description></item><item><title>Java là gì? Ứng dụng trong lập trình mạng</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</guid><description>&lt;h2 id="java-là-gì"&gt;Java là gì?&lt;/h2&gt;
 &lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems.
 Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tảng&lt;/strong&gt; nhờ cơ chế JVM.&lt;/p&gt;
-&lt;h2 id=&#34;vì-sao-java-phù-hợp-với-lập-trình-mạng&#34;&gt;Vì sao Java phù hợp với lập trình mạng?&lt;/h2&gt;
+&lt;h2 id="vì-sao-java-phù-hợp-với-lập-trình-mạng"&gt;Vì sao Java phù hợp với lập trình mạng?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hỗ trợ thư viện mạng mạnh (&lt;code&gt;java.net&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;Chạy ổn định trên server&lt;/li&gt;
 &lt;li&gt;Bảo mật tốt&lt;/li&gt;
 &lt;li&gt;Được dùng nhiều trong hệ thống Client–Server&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ứng-dụng-thực-tế&#34;&gt;Ứng dụng thực tế&lt;/h2&gt;
+&lt;h2 id="ứng-dụng-thực-tế"&gt;Ứng dụng thực tế&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Server backend&lt;/li&gt;
 &lt;li&gt;Ứng dụng chat&lt;/li&gt;
 &lt;li&gt;Hệ thống phân tán&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript là gì?</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</guid>
-      <description>&lt;h2 id=&#34;javascript-là-gì&#34;&gt;JavaScript là gì?&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>JavaScript là gì?</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</guid><description>&lt;h2 id="javascript-là-gì"&gt;JavaScript là gì?&lt;/h2&gt;
 &lt;p&gt;JavaScript là ngôn ngữ lập trình chạy trên trình duyệt.&lt;/p&gt;
-&lt;h2 id=&#34;vai-trò&#34;&gt;Vai trò&lt;/h2&gt;
+&lt;h2 id="vai-trò"&gt;Vai trò&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Tạo website động&lt;/li&gt;
 &lt;li&gt;Gửi request&lt;/li&gt;
 &lt;li&gt;Xử lý dữ liệu phía client&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;kết-hợp-với-backend&#34;&gt;Kết hợp với backend&lt;/h2&gt;
-&lt;p&gt;JavaScript thường kết hợp với Java để xây dựng web hoàn chỉnh.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mô hình Client – Server trong Java</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</guid>
-      <description>&lt;h2 id=&#34;client--server-là-gì&#34;&gt;Client – Server là gì?&lt;/h2&gt;
+&lt;h2 id="kết-hợp-với-backend"&gt;Kết hợp với backend&lt;/h2&gt;
+&lt;p&gt;JavaScript thường kết hợp với Java để xây dựng web hoàn chỉnh.&lt;/p&gt;</description></item><item><title>Mô hình Client – Server trong Java</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</guid><description>&lt;h2 id="client--server-là-gì"&gt;Client – Server là gì?&lt;/h2&gt;
 &lt;p&gt;Client gửi yêu cầu, Server xử lý và trả kết quả.&lt;/p&gt;
-&lt;h2 id=&#34;vai-trò&#34;&gt;Vai trò&lt;/h2&gt;
+&lt;h2 id="vai-trò"&gt;Vai trò&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Client: giao diện người dùng&lt;/li&gt;
 &lt;li&gt;Server: xử lý logic&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;java-áp-dụng&#34;&gt;Java áp dụng&lt;/h2&gt;
+&lt;h2 id="java-áp-dụng"&gt;Java áp dụng&lt;/h2&gt;
 &lt;p&gt;Java thường dùng mô hình này cho:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ứng dụng quản lý&lt;/li&gt;
 &lt;li&gt;Website backend&lt;/li&gt;
 &lt;li&gt;Hệ thống mạng nội bộ&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Socket trong Java là gì?</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</link>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</guid>
-      <description>&lt;h2 id=&#34;socket-là-gì&#34;&gt;Socket là gì?&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Socket trong Java là gì?</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</guid><description>&lt;h2 id="socket-là-gì"&gt;Socket là gì?&lt;/h2&gt;
 &lt;p&gt;Socket là điểm giao tiếp giữa hai máy tính thông qua mạng.
 Trong Java, socket giúp client và server trao đổi dữ liệu.&lt;/p&gt;
-&lt;h2 id=&#34;các-lớp-chính&#34;&gt;Các lớp chính&lt;/h2&gt;
+&lt;h2 id="các-lớp-chính"&gt;Các lớp chính&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;: phía client&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ServerSocket&lt;/code&gt;: phía server&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ví-dụ-đơn-giản&#34;&gt;Ví dụ đơn giản&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;h2 id="ví-dụ-đơn-giản"&gt;Ví dụ đơn giản&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Socket&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;1234&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Socket&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Socket&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;1234&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Giới thiệu</title>
-      <link>https://Tiennnn1107.github.io/TranTanTien-blog/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Tiennnn1107.github.io/TranTanTien-blog/about/</guid>
-      <description>Một chút thông tin về Trần Tấn Tiến</description>
-    </item>
-  </channel>
-</rss>
+&lt;/div&gt;</description></item><item><title>Giới thiệu</title><link>https://Tiennnn1107.github.io/TranTanTien-blog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Tiennnn1107.github.io/TranTanTien-blog/about/</guid><description>Một chút thông tin về Trần Tấn Tiến</description></item></channel></rss>
