@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/web/</link>
+    <description>Recent content in Web on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kết nối Java Backend và JavaScript Frontend</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</guid>
+      <description>&lt;p&gt;Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.&lt;/p&gt;
+&lt;p&gt;Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.&lt;/p&gt;
+&lt;p&gt;Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vai trò của JavaScript trong ứng dụng Web</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</link>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</guid>
+      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại. Nó giúp website trở nên tương tác và thân thiện hơn với người dùng.&lt;/p&gt;
+&lt;p&gt;JavaScript cho phép xử lý sự kiện, thao tác DOM và giao tiếp với Server thông qua API. Nhờ đó, website không cần tải lại trang mà vẫn cập nhật được dữ liệu mới.&lt;/p&gt;
+&lt;p&gt;Trong quá trình học, mình nhận ra rằng JavaScript đóng vai trò cầu nối giữa người dùng và hệ thống phía Server, giúp trải nghiệm web trở nên mượt mà hơn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

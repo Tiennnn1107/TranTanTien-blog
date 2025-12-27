@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Kết nối Java Backend và JavaScript Frontend | Trần Tấn Tiến | Developer</title>
+<meta name="keywords" content="java, javascript, web">
+<meta name="description" content="Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.
+Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.
+Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.">
+<meta name="author" content="Trần Tấn Tiến">
+<link rel="canonical" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/">
+<link crossorigin="anonymous" href="/TranTanTien-blog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tiennnn1107.github.io/TranTanTien-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tiennnn1107.github.io/TranTanTien-blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/">
+  <meta property="og:site_name" content="Trần Tấn Tiến | Developer">
+  <meta property="og:title" content="Kết nối Java Backend và JavaScript Frontend">
+  <meta property="og:description" content="Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.
+Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.
+Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.">
+  <meta property="og:locale" content="vi-vn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-27T00:00:00+00:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Web">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kết nối Java Backend và JavaScript Frontend">
+<meta name="twitter:description" content="Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.
+Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.
+Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://tiennnn1107.github.io/TranTanTien-blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Kết nối Java Backend và JavaScript Frontend",
+      "item": "https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kết nối Java Backend và JavaScript Frontend",
+  "name": "Kết nối Java Backend và JavaScript Frontend",
+  "description": "Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.\nBackend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.\nQua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.\n",
+  "keywords": [
+    "java", "javascript", "web"
+  ],
+  "articleBody": "Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.\nBackend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.\nQua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.\n",
+  "wordCount" : "97",
+  "inLanguage": "en",
+  "datePublished": "2025-12-27T00:00:00Z",
+  "dateModified": "2025-12-27T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Trần Tấn Tiến"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trần Tấn Tiến | Developer",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tiennnn1107.github.io/TranTanTien-blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://tiennnn1107.github.io/TranTanTien-blog/" accesskey="h" title="Trần Tấn Tiến | Developer (Alt + H)">Trần Tấn Tiến | Developer</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/" title="HOME">
+                    <span>HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/posts/" title="POSTS">
+                    <span>POSTS</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/about/" title="ABOUT">
+                    <span>ABOUT</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://tiennnn1107.github.io/TranTanTien-blog/">Home</a>&nbsp;»&nbsp;<a href="https://tiennnn1107.github.io/TranTanTien-blog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Kết nối Java Backend và JavaScript Frontend
+    </h1>
+    <div class="post-meta"><span title='2025-12-27 00:00:00 +0000 UTC'>December 27, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Tấn Tiến</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.</p>
+<p>Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.</p>
+<p>Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/java/">Java</a></li>
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/javascript/">Javascript</a></li>
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/web/">Web</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api-va-bat-dong-bo/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Fetch API và xử lý bất đồng bộ trong JavaScript</span>
+  </a>
+  <a class="next" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Vai trò của JavaScript trong ứng dụng Web</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer-modern">
+    <div class="footer-inner">
+
+        
+        <div class="footer-left">
+                <span>© 2025 <a href="https://tiennnn1107.github.io/TranTanTien-blog/">Trần Tấn Tiến | Developer</a></span>
+        </div>
+
+        
+
+        
+        <div class="footer-right">
+            <span>
+                Built with
+                <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> ·
+                <a href="https://github.com/adityatelange/hugo-PaperMod/" target="_blank" rel="noopener">PaperMod</a>
+            </span>
+        </div>
+
+    </div>
+</footer>
+<a href="#top" class="top-link" id="top-link" aria-label="Go to top">
+    ▲
+</a>
+</body>
+
+</html>

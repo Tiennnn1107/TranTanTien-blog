@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Server on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/server/</link>
+    <description>Recent content in Server on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Đa luồng trong Java và ứng dụng trong Server</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</guid>
+      <description>&lt;p&gt;Trong các hệ thống Server, việc xử lý nhiều Client cùng lúc là yêu cầu bắt buộc. Java hỗ trợ đa luồng (Thread) giúp Server có thể xử lý đồng thời nhiều kết nối.&lt;/p&gt;
+&lt;p&gt;Mỗi Client khi kết nối đến Server có thể được gán cho một Thread riêng. Điều này giúp các Client không phải chờ đợi nhau, nâng cao hiệu năng hệ thống.&lt;/p&gt;
+&lt;p&gt;Tuy nhiên, đa luồng cũng mang lại nhiều thách thức như xung đột dữ liệu, deadlock hay race condition. Lập trình viên cần quản lý Thread cẩn thận và sử dụng các cơ chế đồng bộ phù hợp.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

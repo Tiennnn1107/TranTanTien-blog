@@ -1,1 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Trần Tấn Tiến | Developer</title><link>https://tiennnn1107.github.io/TranTanTien-blog/tags/</link><description>Recent content in Tags on Trần Tấn Tiến | Developer</description><generator>Hugo -- 0.153.2</generator><language>vi-vn</language><atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/</link>
+    <description>Recent content in Tags on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Api</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/api/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fetch</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/fetch/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/java/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/javascript/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/web/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/error/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/network/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/socket/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/socket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/server/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thread</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/thread/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/thread/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tcp</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/tcp/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Udp</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/udp/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Client-Server</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/client-server/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/client-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lap-Trinh-Mang</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/lap-trinh-mang/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/tags/lap-trinh-mang/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

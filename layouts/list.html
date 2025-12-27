@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="blog-list-layout">
+
+    <!-- Header -->
+    <div class="blog-header">
+        <h1 class="blog-title">{{ .Title }}</h1>
+        <p class="blog-subtitle">
+            Chia sẻ kiến thức Java & JavaScript • Lập trình mạng • Web
+        </p>
+    </div>
+
+    <!-- Post Grid -->
+    <div class="post-grid">
+        {{ range .Pages }}
+        <article class="post-card">
+
+            <h2>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+
+            {{ with .Params.tags }}
+            <div class="tags">
+                {{ range . }}
+                <span>{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+
+        </article>
+        {{ end }}
+    </div>
+
+</section>
+
+{{ end }}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lap-Trinh-Mang on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/lap-trinh-mang/</link>
+    <description>Recent content in Lap-Trinh-Mang on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/lap-trinh-mang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tổng quan về lập trình mạng và vai trò của Socket</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</guid>
+      <description>&lt;p&gt;Lập trình mạng là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình giao tiếp với nhau thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như website, ứng dụng chat, game online, hệ thống ngân hàng hay các nền tảng mạng xã hội đều dựa trên nền tảng lập trình mạng.&lt;/p&gt;
+&lt;p&gt;Trong lập trình mạng, Socket được xem như một điểm cuối (endpoint) cho quá trình giao tiếp giữa hai tiến trình. Socket cho phép gửi và nhận dữ liệu thông qua các giao thức phổ biến như TCP và UDP. Nhờ Socket, các ứng dụng có thể trao đổi thông tin dù chạy trên cùng một máy hay ở hai vị trí địa lý khác nhau.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Socket on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/socket/</link>
+    <description>Recent content in Socket on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/socket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xử lý lỗi trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</guid>
+      <description>&lt;p&gt;Trong lập trình mạng, lỗi là điều không thể tránh khỏi. Các lỗi thường gặp bao gồm mất kết nối, timeout, dữ liệu không hợp lệ hoặc Server quá tải.&lt;/p&gt;
+&lt;p&gt;Nếu không xử lý lỗi tốt, ứng dụng có thể bị treo hoặc crash, gây trải nghiệm không tốt cho người dùng. Do đó, việc xử lý lỗi là một phần quan trọng trong thiết kế hệ thống mạng.&lt;/p&gt;
+&lt;p&gt;Java cung cấp cơ chế Exception giúp lập trình viên bắt và xử lý lỗi một cách hiệu quả. Ngoài ra, việc ghi log lỗi cũng giúp dễ dàng debug và bảo trì hệ thống.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket cơ bản với Java</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</guid>
+      <description>&lt;p&gt;Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như &lt;code&gt;Socket&lt;/code&gt; và &lt;code&gt;ServerSocket&lt;/code&gt;. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.&lt;/p&gt;
+&lt;p&gt;Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tổng quan về lập trình mạng và vai trò của Socket</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</guid>
+      <description>&lt;p&gt;Lập trình mạng là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình giao tiếp với nhau thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như website, ứng dụng chat, game online, hệ thống ngân hàng hay các nền tảng mạng xã hội đều dựa trên nền tảng lập trình mạng.&lt;/p&gt;
+&lt;p&gt;Trong lập trình mạng, Socket được xem như một điểm cuối (endpoint) cho quá trình giao tiếp giữa hai tiến trình. Socket cho phép gửi và nhận dữ liệu thông qua các giao thức phổ biến như TCP và UDP. Nhờ Socket, các ứng dụng có thể trao đổi thông tin dù chạy trên cùng một máy hay ở hai vị trí địa lý khác nhau.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

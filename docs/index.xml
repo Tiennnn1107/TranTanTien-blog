@@ -1,88 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Trần Tấn Tiến | Developer</title><link>https://tiennnn1107.github.io/TranTanTien-blog/</link><description>Recent content on Trần Tấn Tiến | Developer</description><generator>Hugo -- 0.153.2</generator><language>vi-vn</language><lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Các lỗi thường gặp khi lập trình Socket Java</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/loi-socket-java/</guid><description>&lt;h2 id="một-số-lỗi-phổ-biến"&gt;Một số lỗi phổ biến&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Port đã được sử dụng&lt;/li&gt;
-&lt;li&gt;Không kết nối được server&lt;/li&gt;
-&lt;li&gt;Đọc dữ liệu bị treo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="nguyên-nhân"&gt;Nguyên nhân&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Server chưa chạy&lt;/li&gt;
-&lt;li&gt;Firewall chặn&lt;/li&gt;
-&lt;li&gt;Sai IP hoặc port&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="cách-khắc-phục"&gt;Cách khắc phục&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Kiểm tra port&lt;/li&gt;
-&lt;li&gt;Bắt exception&lt;/li&gt;
-&lt;li&gt;Log lỗi rõ ràng&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>dasdasdsad</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/bai-viet-dau-tien/</guid><description>&lt;p&gt;Đây là bài viết đầu tiên trong blog Hugo của tôi.
-Blog chia sẻ kiến thức &lt;strong&gt;Java &amp;amp; JavaScript&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Fetch API trong JavaScript</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api/</guid><description>&lt;h2 id="fetch-api-là-gì"&gt;Fetch API là gì?&lt;/h2&gt;
-&lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
-&lt;h2 id="ví-dụ"&gt;Ví dụ&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://api.example.com/data&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;res&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;res&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;json&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;then&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;data&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;data&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Java là gì? Ứng dụng trong lập trình mạng</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/java-la-gi/</guid><description>&lt;h2 id="java-là-gì"&gt;Java là gì?&lt;/h2&gt;
-&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems.
-Java nổi bật với khả năng &lt;strong&gt;chạy trên nhiều nền tảng&lt;/strong&gt; nhờ cơ chế JVM.&lt;/p&gt;
-&lt;h2 id="vì-sao-java-phù-hợp-với-lập-trình-mạng"&gt;Vì sao Java phù hợp với lập trình mạng?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Hỗ trợ thư viện mạng mạnh (&lt;code&gt;java.net&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Chạy ổn định trên server&lt;/li&gt;
-&lt;li&gt;Bảo mật tốt&lt;/li&gt;
-&lt;li&gt;Được dùng nhiều trong hệ thống Client–Server&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="ứng-dụng-thực-tế"&gt;Ứng dụng thực tế&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Server backend&lt;/li&gt;
-&lt;li&gt;Ứng dụng chat&lt;/li&gt;
-&lt;li&gt;Hệ thống phân tán&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>JavaScript là gì?</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/javascript-la-gi/</guid><description>&lt;h2 id="javascript-là-gì"&gt;JavaScript là gì?&lt;/h2&gt;
-&lt;p&gt;JavaScript là ngôn ngữ lập trình chạy trên trình duyệt.&lt;/p&gt;
-&lt;h2 id="vai-trò"&gt;Vai trò&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tạo website động&lt;/li&gt;
-&lt;li&gt;Gửi request&lt;/li&gt;
-&lt;li&gt;Xử lý dữ liệu phía client&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="kết-hợp-với-backend"&gt;Kết hợp với backend&lt;/h2&gt;
-&lt;p&gt;JavaScript thường kết hợp với Java để xây dựng web hoàn chỉnh.&lt;/p&gt;</description></item><item><title>Mô hình Client – Server trong Java</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/client-server-java/</guid><description>&lt;h2 id="client--server-là-gì"&gt;Client – Server là gì?&lt;/h2&gt;
-&lt;p&gt;Client gửi yêu cầu, Server xử lý và trả kết quả.&lt;/p&gt;
-&lt;h2 id="vai-trò"&gt;Vai trò&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Client: giao diện người dùng&lt;/li&gt;
-&lt;li&gt;Server: xử lý logic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="java-áp-dụng"&gt;Java áp dụng&lt;/h2&gt;
-&lt;p&gt;Java thường dùng mô hình này cho:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ứng dụng quản lý&lt;/li&gt;
-&lt;li&gt;Website backend&lt;/li&gt;
-&lt;li&gt;Hệ thống mạng nội bộ&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Socket trong Java là gì?</title><link>https://tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/socket-trong-java/</guid><description>&lt;h2 id="socket-là-gì"&gt;Socket là gì?&lt;/h2&gt;
-&lt;p&gt;Socket là điểm giao tiếp giữa hai máy tính thông qua mạng.
-Trong Java, socket giúp client và server trao đổi dữ liệu.&lt;/p&gt;
-&lt;h2 id="các-lớp-chính"&gt;Các lớp chính&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;: phía client&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ServerSocket&lt;/code&gt;: phía server&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="ví-dụ-đơn-giản"&gt;Ví dụ đơn giản&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Socket&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Socket&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;1234&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Giới thiệu</title><link>https://tiennnn1107.github.io/TranTanTien-blog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tiennnn1107.github.io/TranTanTien-blog/about/</guid><description>Một chút thông tin về Trần Tấn Tiến</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/</link>
+    <description>Recent content on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fetch API và xử lý bất đồng bộ trong JavaScript</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api-va-bat-dong-bo/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api-va-bat-dong-bo/</guid>
+      <description>&lt;p&gt;Fetch API là công cụ mạnh mẽ cho phép JavaScript gửi và nhận dữ liệu từ Server. Nó thường được sử dụng để gọi REST API trong các ứng dụng web.&lt;/p&gt;
+&lt;p&gt;Fetch hoạt động theo cơ chế bất đồng bộ, giúp website không bị đứng khi chờ dữ liệu từ Server. Điều này giúp cải thiện trải nghiệm người dùng.&lt;/p&gt;
+&lt;p&gt;Qua việc sử dụng Fetch API, mình hiểu rõ hơn cách Client giao tiếp với Server và cách xử lý dữ liệu trả về một cách hiệu quả.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kết nối Java Backend và JavaScript Frontend</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</guid>
+      <description>&lt;p&gt;Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.&lt;/p&gt;
+&lt;p&gt;Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.&lt;/p&gt;
+&lt;p&gt;Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vai trò của JavaScript trong ứng dụng Web</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</link>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</guid>
+      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại. Nó giúp website trở nên tương tác và thân thiện hơn với người dùng.&lt;/p&gt;
+&lt;p&gt;JavaScript cho phép xử lý sự kiện, thao tác DOM và giao tiếp với Server thông qua API. Nhờ đó, website không cần tải lại trang mà vẫn cập nhật được dữ liệu mới.&lt;/p&gt;
+&lt;p&gt;Trong quá trình học, mình nhận ra rằng JavaScript đóng vai trò cầu nối giữa người dùng và hệ thống phía Server, giúp trải nghiệm web trở nên mượt mà hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử lý lỗi trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</guid>
+      <description>&lt;p&gt;Trong lập trình mạng, lỗi là điều không thể tránh khỏi. Các lỗi thường gặp bao gồm mất kết nối, timeout, dữ liệu không hợp lệ hoặc Server quá tải.&lt;/p&gt;
+&lt;p&gt;Nếu không xử lý lỗi tốt, ứng dụng có thể bị treo hoặc crash, gây trải nghiệm không tốt cho người dùng. Do đó, việc xử lý lỗi là một phần quan trọng trong thiết kế hệ thống mạng.&lt;/p&gt;
+&lt;p&gt;Java cung cấp cơ chế Exception giúp lập trình viên bắt và xử lý lỗi một cách hiệu quả. Ngoài ra, việc ghi log lỗi cũng giúp dễ dàng debug và bảo trì hệ thống.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Đa luồng trong Java và ứng dụng trong Server</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</guid>
+      <description>&lt;p&gt;Trong các hệ thống Server, việc xử lý nhiều Client cùng lúc là yêu cầu bắt buộc. Java hỗ trợ đa luồng (Thread) giúp Server có thể xử lý đồng thời nhiều kết nối.&lt;/p&gt;
+&lt;p&gt;Mỗi Client khi kết nối đến Server có thể được gán cho một Thread riêng. Điều này giúp các Client không phải chờ đợi nhau, nâng cao hiệu năng hệ thống.&lt;/p&gt;
+&lt;p&gt;Tuy nhiên, đa luồng cũng mang lại nhiều thách thức như xung đột dữ liệu, deadlock hay race condition. Lập trình viên cần quản lý Thread cẩn thận và sử dụng các cơ chế đồng bộ phù hợp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket cơ bản với Java</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</guid>
+      <description>&lt;p&gt;Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như &lt;code&gt;Socket&lt;/code&gt; và &lt;code&gt;ServerSocket&lt;/code&gt;. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.&lt;/p&gt;
+&lt;p&gt;Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/</guid>
+      <description>&lt;p&gt;TCP và UDP là hai giao thức truyền tải dữ liệu phổ biến nhất trong lập trình mạng. TCP là giao thức hướng kết nối, đảm bảo dữ liệu được truyền đầy đủ, chính xác và theo đúng thứ tự.&lt;/p&gt;
+&lt;p&gt;Ngược lại, UDP là giao thức không hướng kết nối, không đảm bảo độ tin cậy nhưng có tốc độ truyền nhanh. UDP thường được sử dụng trong các ứng dụng yêu cầu thời gian thực như game online, video call hoặc livestream.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mô hình Client – Server trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</guid>
+      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.&lt;/p&gt;
+&lt;p&gt;Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tổng quan về lập trình mạng và vai trò của Socket</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</guid>
+      <description>&lt;p&gt;Lập trình mạng là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình giao tiếp với nhau thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như website, ứng dụng chat, game online, hệ thống ngân hàng hay các nền tảng mạng xã hội đều dựa trên nền tảng lập trình mạng.&lt;/p&gt;
+&lt;p&gt;Trong lập trình mạng, Socket được xem như một điểm cuối (endpoint) cho quá trình giao tiếp giữa hai tiến trình. Socket cho phép gửi và nhận dữ liệu thông qua các giao thức phổ biến như TCP và UDP. Nhờ Socket, các ứng dụng có thể trao đổi thông tin dù chạy trên cùng một máy hay ở hai vị trí địa lý khác nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/about/</guid>
+      <description>Một chút thông tin về Trần Tấn Tiến</description>
+    </item>
+  </channel>
+</rss>

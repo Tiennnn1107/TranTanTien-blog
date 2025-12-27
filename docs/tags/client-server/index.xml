@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Client-Server on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/client-server/</link>
+    <description>Recent content in Client-Server on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/client-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mô hình Client – Server trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</guid>
+      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.&lt;/p&gt;
+&lt;p&gt;Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

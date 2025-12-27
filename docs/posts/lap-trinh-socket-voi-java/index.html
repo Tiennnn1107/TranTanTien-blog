@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lập trình Socket cơ bản với Java | Trần Tấn Tiến | Developer</title>
+<meta name="keywords" content="java, socket, network">
+<meta name="description" content="Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như Socket và ServerSocket. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.
+Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.">
+<meta name="author" content="Trần Tấn Tiến">
+<link rel="canonical" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/">
+<link crossorigin="anonymous" href="/TranTanTien-blog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tiennnn1107.github.io/TranTanTien-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tiennnn1107.github.io/TranTanTien-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tiennnn1107.github.io/TranTanTien-blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/">
+  <meta property="og:site_name" content="Trần Tấn Tiến | Developer">
+  <meta property="og:title" content="Lập trình Socket cơ bản với Java">
+  <meta property="og:description" content="Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như Socket và ServerSocket. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.
+Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.">
+  <meta property="og:locale" content="vi-vn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-23T00:00:00+00:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Socket">
+    <meta property="article:tag" content="Network">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lập trình Socket cơ bản với Java">
+<meta name="twitter:description" content="Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như Socket và ServerSocket. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.
+Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://tiennnn1107.github.io/TranTanTien-blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lập trình Socket cơ bản với Java",
+      "item": "https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lập trình Socket cơ bản với Java",
+  "name": "Lập trình Socket cơ bản với Java",
+  "description": "Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như Socket và ServerSocket. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.\nTrong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.\n",
+  "keywords": [
+    "java", "socket", "network"
+  ],
+  "articleBody": "Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như Socket và ServerSocket. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.\nTrong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.\nMột điểm quan trọng trong lập trình Socket là phải xử lý đúng thứ tự mở – đóng kết nối để tránh rò rỉ tài nguyên. Ngoài ra, việc kiểm soát dữ liệu đầu vào cũng rất cần thiết để tránh lỗi hoặc tấn công.\nLập trình Socket với Java là nền tảng quan trọng để phát triển các hệ thống lớn hơn như Web Server hoặc hệ thống chat.\n",
+  "wordCount" : "156",
+  "inLanguage": "en",
+  "datePublished": "2025-12-23T00:00:00Z",
+  "dateModified": "2025-12-23T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Trần Tấn Tiến"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trần Tấn Tiến | Developer",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tiennnn1107.github.io/TranTanTien-blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://tiennnn1107.github.io/TranTanTien-blog/" accesskey="h" title="Trần Tấn Tiến | Developer (Alt + H)">Trần Tấn Tiến | Developer</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/" title="HOME">
+                    <span>HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/posts/" title="POSTS">
+                    <span>POSTS</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tiennnn1107.github.io/TranTanTien-blog/about/" title="ABOUT">
+                    <span>ABOUT</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://tiennnn1107.github.io/TranTanTien-blog/">Home</a>&nbsp;»&nbsp;<a href="https://tiennnn1107.github.io/TranTanTien-blog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Lập trình Socket cơ bản với Java
+    </h1>
+    <div class="post-meta"><span title='2025-12-23 00:00:00 +0000 UTC'>December 23, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Tấn Tiến</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như <code>Socket</code> và <code>ServerSocket</code>. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.</p>
+<p>Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.</p>
+<p>Một điểm quan trọng trong lập trình Socket là phải xử lý đúng thứ tự mở – đóng kết nối để tránh rò rỉ tài nguyên. Ngoài ra, việc kiểm soát dữ liệu đầu vào cũng rất cần thiết để tránh lỗi hoặc tấn công.</p>
+<p>Lập trình Socket với Java là nền tảng quan trọng để phát triển các hệ thống lớn hơn như Web Server hoặc hệ thống chat.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/java/">Java</a></li>
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/socket/">Socket</a></li>
+      <li><a href="https://tiennnn1107.github.io/TranTanTien-blog/tags/network/">Network</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Đa luồng trong Java và ứng dụng trong Server</span>
+  </a>
+  <a class="next" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/">
+    <span class="title">Next »</span>
+    <br>
+    <span>TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer-modern">
+    <div class="footer-inner">
+
+        
+        <div class="footer-left">
+                <span>© 2025 <a href="https://tiennnn1107.github.io/TranTanTien-blog/">Trần Tấn Tiến | Developer</a></span>
+        </div>
+
+        
+
+        
+        <div class="footer-right">
+            <span>
+                Built with
+                <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> ·
+                <a href="https://github.com/adityatelange/hugo-PaperMod/" target="_blank" rel="noopener">PaperMod</a>
+            </span>
+        </div>
+
+    </div>
+</footer>
+<a href="#top" class="top-link" id="top-link" aria-label="Go to top">
+    ▲
+</a>
+</body>
+
+</html>

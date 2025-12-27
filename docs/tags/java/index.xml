@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Trần Tấn Tiến | Developer</title>
+    <link>https://tiennnn1107.github.io/TranTanTien-blog/tags/java/</link>
+    <description>Recent content in Java on Trần Tấn Tiến | Developer</description>
+    <generator>Hugo -- 0.153.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kết nối Java Backend và JavaScript Frontend</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</guid>
+      <description>&lt;p&gt;Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.&lt;/p&gt;
+&lt;p&gt;Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.&lt;/p&gt;
+&lt;p&gt;Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Đa luồng trong Java và ứng dụng trong Server</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</guid>
+      <description>&lt;p&gt;Trong các hệ thống Server, việc xử lý nhiều Client cùng lúc là yêu cầu bắt buộc. Java hỗ trợ đa luồng (Thread) giúp Server có thể xử lý đồng thời nhiều kết nối.&lt;/p&gt;
+&lt;p&gt;Mỗi Client khi kết nối đến Server có thể được gán cho một Thread riêng. Điều này giúp các Client không phải chờ đợi nhau, nâng cao hiệu năng hệ thống.&lt;/p&gt;
+&lt;p&gt;Tuy nhiên, đa luồng cũng mang lại nhiều thách thức như xung đột dữ liệu, deadlock hay race condition. Lập trình viên cần quản lý Thread cẩn thận và sử dụng các cơ chế đồng bộ phù hợp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket cơ bản với Java</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</guid>
+      <description>&lt;p&gt;Java cung cấp sẵn các thư viện hỗ trợ lập trình mạng như &lt;code&gt;Socket&lt;/code&gt; và &lt;code&gt;ServerSocket&lt;/code&gt;. Nhờ đó, việc xây dựng các ứng dụng Client – Server trở nên đơn giản và trực quan hơn.&lt;/p&gt;
+&lt;p&gt;Trong quá trình học, mình đã xây dựng các chương trình Server lắng nghe kết nối từ Client. Khi Client gửi dữ liệu, Server tiếp nhận, xử lý và phản hồi kết quả. Điều này giúp mình hiểu rõ hơn về luồng dữ liệu và cơ chế giao tiếp qua mạng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mô hình Client – Server trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</guid>
+      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.&lt;/p&gt;
+&lt;p&gt;Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tổng quan về lập trình mạng và vai trò của Socket</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</guid>
+      <description>&lt;p&gt;Lập trình mạng là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình giao tiếp với nhau thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như website, ứng dụng chat, game online, hệ thống ngân hàng hay các nền tảng mạng xã hội đều dựa trên nền tảng lập trình mạng.&lt;/p&gt;
+&lt;p&gt;Trong lập trình mạng, Socket được xem như một điểm cuối (endpoint) cho quá trình giao tiếp giữa hai tiến trình. Socket cho phép gửi và nhận dữ liệu thông qua các giao thức phổ biến như TCP và UDP. Nhờ Socket, các ứng dụng có thể trao đổi thông tin dù chạy trên cùng một máy hay ở hai vị trí địa lý khác nhau.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
