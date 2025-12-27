@@ -1,0 +1,145 @@
+{{ define "main" }}
+<div class="contact-page-container">
+    <div class="contact-grid-system">
+        
+        <div class="contact-content-side animate-up">
+            <h1 class="contact-neon-title">{{ .Title }}</h1>
+            <div class="md-content">
+                {{ .Content }}
+            </div>
+        </div>
+
+        <div class="contact-form-side animate-up" style="animation-delay: 0.2s;">
+            <div class="form-card">
+                <form action="https://formspree.io/f/your-id" method="POST" class="form-flex">
+                    <div class="input-box">
+                        <input type="text" name="name" placeholder="Tên của bạn" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" placeholder="Email của bạn" required>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="message" rows="5" placeholder="Lời nhắn gửi đến Tiến..." required></textarea>
+                    </div>
+                    <button type="submit" class="neon-button">GỬI TIN NHẮN</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+/* CSS ĐẶC BIỆT CHO TRANG CONTACT */
+.contact-page-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.contact-grid-system {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.contact-content-side {
+    flex: 1;
+    /* Căn trái toàn bộ khối văn bản */
+    text-align: left !important; 
+}
+
+.contact-form-side {
+    flex: 1;
+}
+
+/* Căn trái tiêu đề "Liên Hệ" */
+.contact-neon-title {
+    font-size: 3rem;
+    color: #4aa3ff;
+    text-shadow: 0 0 10px rgba(74, 163, 255, 0.4);
+    margin-bottom: 25px;
+    text-align: left !important; /* Ép buộc căn trái */
+}
+
+/* Định dạng nội dung Markdown căn trái */
+.md-content {
+    text-align: left !important;
+}
+
+.md-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.md-content li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    display: flex; /* Giúp căn trái các icon/text trong danh sách */
+    justify-content: flex-start;
+}
+
+.md-content blockquote {
+    margin: 30px 0;
+    border-left: 4px solid #ff6b6b;
+    padding-left: 15px;
+    font-style: italic;
+    color: rgba(255,255,255,0.7);
+    text-align: left !important;
+}
+
+/* Định dạng Form (Giữ nguyên) */
+.form-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+}
+
+.input-box { margin-bottom: 20px; }
+
+.input-box input, .input-box textarea {
+    width: 100%;
+    padding: 12px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+
+.neon-button {
+    width: 100%;
+    padding: 15px;
+    background: #ff6b6b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.neon-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.4);
+}
+
+/* Hiệu ứng bay lên */
+.animate-up {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
+@media (max-width: 850px) {
+    .contact-grid-system { flex-direction: column; gap: 40px; }
+    .contact-content-side { text-align: center !important; } /* Trên mobile để căn giữa cho đẹp */
+    .contact-neon-title { text-align: center !important; }
+}
+</style>
+{{ end }}

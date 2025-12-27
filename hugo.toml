@@ -51,8 +51,11 @@ theme = "PaperMod"
       url = "posts"
 
     [[params.profileMode.buttons]]
-      name = "ABOUT"
+      name = "Giới Thiệu"
       url = "about"
+        [[params.profileMode.buttons]]
+      name = "Liên Hệ"
+      url = "contact"
 
   # ===== SOCIAL =====
   [[params.socialIcons]]
@@ -64,18 +67,23 @@ theme = "PaperMod"
 
   [[menu.main]]
     identifier = "home"
-    name = "HOME"
+    name = "Trang chủ"
     url = ""
     weight = 1
 
   [[menu.main]]
     identifier = "posts"
-    name = "POSTS"
+    name = "Bài Viết"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
     identifier = "about"
-    name = "ABOUT"
+    name = "Giới Thiệu"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Liên Hệ"
+    url = "/contact/"
+    weight = 4
