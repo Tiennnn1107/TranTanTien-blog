@@ -9,6 +9,15 @@
     <lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/udp/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>So sánh TCP và UDP trong lập trình mạng</title>
+      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp/</guid>
+      <description>&lt;p&gt;TCP và UDP là hai giao thức truyền tải dữ liệu phổ biến trong lập trình mạng. TCP đảm bảo dữ liệu được truyền chính xác, đầy đủ và theo đúng thứ tự.&lt;/p&gt;
+&lt;p&gt;Ngược lại, UDP có tốc độ truyền nhanh hơn nhưng không đảm bảo độ tin cậy. UDP thường được dùng trong game online, streaming hoặc các ứng dụng yêu cầu tốc độ cao.&lt;/p&gt;
+&lt;p&gt;Việc lựa chọn TCP hay UDP phụ thuộc vào yêu cầu của hệ thống. Hiểu rõ sự khác nhau giữa hai giao thức này giúp mình thiết kế ứng dụng phù hợp và hiệu quả hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/</link>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
