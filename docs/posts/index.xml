@@ -45,15 +45,6 @@
 &lt;p&gt;Java cung cấp cơ chế Exception giúp lập trình viên bắt và xử lý lỗi một cách hiệu quả. Ngoài ra, việc ghi log lỗi cũng giúp dễ dàng debug và bảo trì hệ thống.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Đa luồng trong Java và ứng dụng trong Server</title>
-      <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</link>
-      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/da-luong-va-server-java/</guid>
-      <description>&lt;p&gt;Trong các hệ thống Server, việc xử lý nhiều Client cùng lúc là yêu cầu bắt buộc. Java hỗ trợ đa luồng (Thread) giúp Server có thể xử lý đồng thời nhiều kết nối.&lt;/p&gt;
-&lt;p&gt;Mỗi Client khi kết nối đến Server có thể được gán cho một Thread riêng. Điều này giúp các Client không phải chờ đợi nhau, nâng cao hiệu năng hệ thống.&lt;/p&gt;
-&lt;p&gt;Tuy nhiên, đa luồng cũng mang lại nhiều thách thức như xung đột dữ liệu, deadlock hay race condition. Lập trình viên cần quản lý Thread cẩn thận và sử dụng các cơ chế đồng bộ phù hợp.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Lập trình Socket cơ bản với Java</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-socket-voi-java/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
