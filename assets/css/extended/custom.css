@@ -310,10 +310,7 @@ h2.entry-hint-parent {
 }
 
 /* Hiệu ứng khi di chuột vào */
-.post-entry:hover .entry-header h2 {
-    color: #ff6b6b !important; /* Đổi sang màu đỏ cam khi hover */
-    text-shadow: 0 0 10px #ff6b6b;
-}
+
 /* ================= BLOG GRID ================= */
 .post-grid {
     display: grid;

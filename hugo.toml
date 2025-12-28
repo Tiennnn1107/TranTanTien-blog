@@ -87,3 +87,8 @@ theme = "PaperMod"
     name = "Liên Hệ"
     url = "/contact/"
     weight = 4
+  [[menu.main]]
+    identifier = "chungchi"
+    name = "Chứng Chỉ"
+    url = "/chungchi/"
+    weight = 5
