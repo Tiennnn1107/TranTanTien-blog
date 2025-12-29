@@ -4,7 +4,6 @@ layout: "about"
 summary: "Một chút thông tin về Trần Tấn Tiến"
 ---
 ![Trần Tấn Tiến](/TranTanTien-blog/images/avartar2.jpg)
-Xin chào! Mình là Trần Tấn Tiến, thích lập trình, học hỏi và chia sẻ kiến thức.
 
 ## Xin chào, mình là Trần Tấn Tiến 👋
 
