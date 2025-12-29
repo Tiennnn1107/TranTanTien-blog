@@ -9,13 +9,13 @@
     <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/error/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Xử lý lỗi trong lập trình mạng</title>
+      <title>⚠️ Xử lý lỗi trong lập trình mạng</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/xu-ly-loi-trong-lap-trinh-mang/</guid>
-      <description>&lt;p&gt;Trong lập trình mạng, lỗi là điều không thể tránh khỏi. Các lỗi thường gặp bao gồm mất kết nối, timeout, dữ liệu không hợp lệ hoặc Server quá tải.&lt;/p&gt;
-&lt;p&gt;Nếu không xử lý lỗi tốt, ứng dụng có thể bị treo hoặc crash, gây trải nghiệm không tốt cho người dùng. Do đó, việc xử lý lỗi là một phần quan trọng trong thiết kế hệ thống mạng.&lt;/p&gt;
-&lt;p&gt;Java cung cấp cơ chế Exception giúp lập trình viên bắt và xử lý lỗi một cách hiệu quả. Ngoài ra, việc ghi log lỗi cũng giúp dễ dàng debug và bảo trì hệ thống.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 Trong &lt;strong&gt;lập trình mạng&lt;/strong&gt;, lỗi là điều &lt;strong&gt;không thể tránh khỏi&lt;/strong&gt; do hệ thống phụ thuộc vào nhiều yếu tố như đường truyền mạng, thiết bị, Server và người dùng. Việc nhận diện và xử lý lỗi đúng cách đóng vai trò quan trọng trong việc xây dựng các ứng dụng mạng ổn định và đáng tin cậy.&lt;/p&gt;
+&lt;h2 id=&#34;-1-các-lỗi-thường-gặp-trong-lập-trình-mạng&#34;&gt;🚧 1. Các lỗi thường gặp trong lập trình mạng&lt;/h2&gt;
+&lt;p&gt;🔍 Một số lỗi phổ biến trong quá trình phát triển ứng dụng mạng bao gồm:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

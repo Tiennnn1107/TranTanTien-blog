@@ -9,12 +9,13 @@
     <lastBuildDate>Sun, 21 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/client-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mô hình Client – Server trong lập trình mạng</title>
+      <title>🖥️ Mô hình Client – Server trong lập trình mạng</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</link>
       <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/</guid>
-      <description>&lt;p&gt;Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.&lt;/p&gt;
-&lt;p&gt;Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 &lt;strong&gt;Mô hình Client – Server&lt;/strong&gt; là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình &lt;strong&gt;giao tiếp và trao đổi dữ liệu&lt;/strong&gt; thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.&lt;/p&gt;
+&lt;h2 id=&#34;-1-khái-niệm-mô-hình-client--server&#34;&gt;📌 1. Khái niệm mô hình Client – Server&lt;/h2&gt;
+&lt;p&gt;🔄 Trong mô hình Client – Server:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

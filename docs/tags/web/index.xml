@@ -9,22 +9,22 @@
     <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kết nối Java Backend và JavaScript Frontend</title>
+      <title>🔗 Kết nối Java Backend và JavaScript Frontend</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</link>
       <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/ket-noi-java-backend-va-js-frontend/</guid>
-      <description>&lt;p&gt;Trong các hệ thống web hiện đại, Java thường được sử dụng để xây dựng Backend, còn JavaScript đảm nhiệm phần Frontend.&lt;/p&gt;
-&lt;p&gt;Backend chịu trách nhiệm xử lý logic nghiệp vụ và dữ liệu, trong khi Frontend hiển thị giao diện và tương tác với người dùng. Sự kết hợp giữa hai phía tạo nên một hệ thống hoàn chỉnh.&lt;/p&gt;
-&lt;p&gt;Qua quá trình học tập và làm đồ án, mình nhận ra rằng việc hiểu cả Java và JavaScript giúp lập trình viên có cái nhìn tổng thể và dễ dàng phát triển các hệ thống lớn.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 Trong các hệ thống web hiện đại, mô hình &lt;strong&gt;Client – Server&lt;/strong&gt; được sử dụng rất phổ biến. Trong đó, &lt;strong&gt;Java&lt;/strong&gt; thường được lựa chọn để xây dựng &lt;strong&gt;Backend&lt;/strong&gt;, còn &lt;strong&gt;JavaScript&lt;/strong&gt; đảm nhiệm vai trò phát triển &lt;strong&gt;Frontend&lt;/strong&gt;, giúp tạo nên các ứng dụng web hoàn chỉnh và có tính tương tác cao.&lt;/p&gt;
+&lt;h2 id=&#34;-1-vai-trò-của-java-trong-backend&#34;&gt;☕ 1. Vai trò của Java trong Backend&lt;/h2&gt;
+&lt;p&gt;🛠️ Java là một ngôn ngữ mạnh mẽ, ổn định và bảo mật cao, thường được sử dụng để xây dựng các hệ thống Backend thông qua các công nghệ như &lt;strong&gt;Servlet, JSP, Spring Boot&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Vai trò của JavaScript trong ứng dụng Web</title>
+      <title>🌐 Vai trò của JavaScript trong ứng dụng Web</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</link>
       <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/vai-tro-cua-javascript-trong-web/</guid>
-      <description>&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại. Nó giúp website trở nên tương tác và thân thiện hơn với người dùng.&lt;/p&gt;
-&lt;p&gt;JavaScript cho phép xử lý sự kiện, thao tác DOM và giao tiếp với Server thông qua API. Nhờ đó, website không cần tải lại trang mà vẫn cập nhật được dữ liệu mới.&lt;/p&gt;
-&lt;p&gt;Trong quá trình học, mình nhận ra rằng JavaScript đóng vai trò cầu nối giữa người dùng và hệ thống phía Server, giúp trải nghiệm web trở nên mượt mà hơn.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🚀 &lt;strong&gt;JavaScript&lt;/strong&gt; là một trong những ngôn ngữ quan trọng và không thể thiếu trong phát triển web hiện đại. Cùng với &lt;strong&gt;HTML&lt;/strong&gt; và &lt;strong&gt;CSS&lt;/strong&gt;, JavaScript tạo nên nền tảng cốt lõi để xây dựng các website và ứng dụng web có tính tương tác cao.&lt;/p&gt;
+&lt;h2 id=&#34;-1-javascript-và-khả-năng-tương-tác-người-dùng&#34;&gt;📌 1. JavaScript và khả năng tương tác người dùng&lt;/h2&gt;
+&lt;p&gt;🖱️ JavaScript giúp website có thể &lt;strong&gt;phản hồi lại hành động của người dùng&lt;/strong&gt; như:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

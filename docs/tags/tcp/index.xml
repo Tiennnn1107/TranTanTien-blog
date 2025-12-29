@@ -9,21 +9,22 @@
     <lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>So sánh TCP và UDP trong lập trình mạng</title>
+      <title>🎯 Ứng dụng của TCP và UDP trong các hệ thống mạng</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp/</link>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp/</guid>
-      <description>&lt;p&gt;TCP và UDP là hai giao thức truyền tải dữ liệu phổ biến trong lập trình mạng. TCP đảm bảo dữ liệu được truyền chính xác, đầy đủ và theo đúng thứ tự.&lt;/p&gt;
-&lt;p&gt;Ngược lại, UDP có tốc độ truyền nhanh hơn nhưng không đảm bảo độ tin cậy. UDP thường được dùng trong game online, streaming hoặc các ứng dụng yêu cầu tốc độ cao.&lt;/p&gt;
-&lt;p&gt;Việc lựa chọn TCP hay UDP phụ thuộc vào yêu cầu của hệ thống. Hiểu rõ sự khác nhau giữa hai giao thức này giúp mình thiết kế ứng dụng phù hợp và hiệu quả hơn.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 Trong lập trình mạng, &lt;strong&gt;TCP&lt;/strong&gt; và &lt;strong&gt;UDP&lt;/strong&gt; là hai giao thức truyền tải dữ liệu quan trọng, đóng vai trò nền tảng cho nhiều hệ thống và ứng dụng hiện nay. Mỗi giao thức được thiết kế để phục vụ những mục đích sử dụng khác nhau trong thực tế.&lt;/p&gt;
+&lt;h2 id=&#34;-1-ứng-dụng-của-tcp-trong-hệ-thống-mạng&#34;&gt;🔒 1. Ứng dụng của TCP trong hệ thống mạng&lt;/h2&gt;
+&lt;p&gt;🔗 &lt;strong&gt;TCP&lt;/strong&gt; thường được sử dụng trong các hệ thống yêu cầu &lt;strong&gt;độ chính xác và độ tin cậy cao&lt;/strong&gt;. Nhờ cơ chế kiểm soát lỗi và đảm bảo thứ tự dữ liệu, TCP phù hợp với những ứng dụng mà dữ liệu không được phép sai lệch.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</title>
+      <title>📡 TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/</link>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/</guid>
-      <description>&lt;p&gt;TCP và UDP là hai giao thức truyền tải dữ liệu phổ biến nhất trong lập trình mạng. TCP là giao thức hướng kết nối, đảm bảo dữ liệu được truyền đầy đủ, chính xác và theo đúng thứ tự.&lt;/p&gt;
-&lt;p&gt;Ngược lại, UDP là giao thức không hướng kết nối, không đảm bảo độ tin cậy nhưng có tốc độ truyền nhanh. UDP thường được sử dụng trong các ứng dụng yêu cầu thời gian thực như game online, video call hoặc livestream.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 Trong lĩnh vực &lt;strong&gt;lập trình mạng&lt;/strong&gt;, &lt;strong&gt;TCP (Transmission Control Protocol)&lt;/strong&gt; và &lt;strong&gt;UDP (User Datagram Protocol)&lt;/strong&gt; là hai giao thức truyền tải dữ liệu quan trọng và được sử dụng phổ biến nhất. Mỗi giao thức có đặc điểm riêng, phù hợp với những mục đích và yêu cầu khác nhau của hệ thống.&lt;/p&gt;
+&lt;h2 id=&#34;-1-giao-thức-tcp&#34;&gt;🔒 1. Giao thức TCP&lt;/h2&gt;
+&lt;p&gt;🔗 &lt;strong&gt;TCP&lt;/strong&gt; là giao thức &lt;strong&gt;hướng kết nối (connection-oriented)&lt;/strong&gt;. Trước khi truyền dữ liệu, TCP sẽ thiết lập kết nối giữa hai bên để đảm bảo quá trình giao tiếp diễn ra ổn định.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

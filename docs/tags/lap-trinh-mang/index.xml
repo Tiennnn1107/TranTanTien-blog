@@ -9,12 +9,11 @@
     <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/lap-trinh-mang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tổng quan về lập trình mạng và vai trò của Socket</title>
+      <title>🌐 Tổng quan về lập trình mạng và vai trò của Socket</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/</guid>
-      <description>&lt;p&gt;Lập trình mạng là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình giao tiếp với nhau thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như website, ứng dụng chat, game online, hệ thống ngân hàng hay các nền tảng mạng xã hội đều dựa trên nền tảng lập trình mạng.&lt;/p&gt;
-&lt;p&gt;Trong lập trình mạng, Socket được xem như một điểm cuối (endpoint) cho quá trình giao tiếp giữa hai tiến trình. Socket cho phép gửi và nhận dữ liệu thông qua các giao thức phổ biến như TCP và UDP. Nhờ Socket, các ứng dụng có thể trao đổi thông tin dù chạy trên cùng một máy hay ở hai vị trí địa lý khác nhau.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌍 &lt;strong&gt;Lập trình mạng&lt;/strong&gt; là một lĩnh vực quan trọng trong Công nghệ thông tin, cho phép các chương trình và hệ thống khác nhau có thể &lt;strong&gt;giao tiếp và trao đổi dữ liệu&lt;/strong&gt; thông qua mạng máy tính. Hầu hết các hệ thống hiện đại như &lt;strong&gt;website, ứng dụng chat, game online, hệ thống ngân hàng&lt;/strong&gt; hay các &lt;strong&gt;nền tảng mạng xã hội&lt;/strong&gt; đều hoạt động dựa trên nền tảng của lập trình mạng.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

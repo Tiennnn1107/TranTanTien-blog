@@ -5,10 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Mô hình Client – Server trong lập trình mạng | Trần Tấn Tiến | Developer</title>
+<title>🖥️ Mô hình Client – Server trong lập trình mạng | Trần Tấn Tiến | Developer</title>
 <meta name="keywords" content="client-server, network, java">
-<meta name="description" content="Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.
-Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.">
+<meta name="description" content="🌐 Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình giao tiếp và trao đổi dữ liệu thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.
+📌 1. Khái niệm mô hình Client – Server
+🔄 Trong mô hình Client – Server:">
 <meta name="author" content="Trần Tấn Tiến">
 <link rel="canonical" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/">
 <link crossorigin="anonymous" href="/TranTanTien-blog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -30,9 +31,9 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
     </style>
 </noscript><meta property="og:url" content="https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/">
   <meta property="og:site_name" content="Trần Tấn Tiến | Developer">
-  <meta property="og:title" content="Mô hình Client – Server trong lập trình mạng">
-  <meta property="og:description" content="Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.
-Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.">
+  <meta property="og:title" content="🖥️ Mô hình Client – Server trong lập trình mạng">
+  <meta property="og:description" content="🌐 Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình giao tiếp và trao đổi dữ liệu thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.
+📌 1. Khái niệm mô hình Client – Server 🔄 Trong mô hình Client – Server:">
   <meta property="og:locale" content="vi-vn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -42,9 +43,10 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
     <meta property="article:tag" content="Network">
     <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mô hình Client – Server trong lập trình mạng">
-<meta name="twitter:description" content="Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.
-Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.">
+<meta name="twitter:title" content="🖥️ Mô hình Client – Server trong lập trình mạng">
+<meta name="twitter:description" content="🌐 Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình giao tiếp và trao đổi dữ liệu thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.
+📌 1. Khái niệm mô hình Client – Server
+🔄 Trong mô hình Client – Server:">
 
 
 <script type="application/ld+json">
@@ -61,7 +63,7 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Mô hình Client – Server trong lập trình mạng",
+      "name": "🖥️ Mô hình Client – Server trong lập trình mạng",
       "item": "https://tiennnn1107.github.io/TranTanTien-blog/posts/mo-hinh-client-server/"
     }
   ]
@@ -71,14 +73,14 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Mô hình Client – Server trong lập trình mạng",
-  "name": "Mô hình Client – Server trong lập trình mạng",
-  "description": "Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.\nClient thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.\n",
+  "headline": "🖥️ Mô hình Client – Server trong lập trình mạng",
+  "name": "🖥️ Mô hình Client – Server trong lập trình mạng",
+  "description": "🌐 Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình giao tiếp và trao đổi dữ liệu thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.\n📌 1. Khái niệm mô hình Client – Server 🔄 Trong mô hình Client – Server:\n",
   "keywords": [
     "client-server", "network", "java"
   ],
-  "articleBody": "Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.\nClient thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.\nTrong quá trình học Java Socket, mình đã tự xây dựng một chương trình Client gửi chuỗi ký tự đến Server. Server sau khi nhận dữ liệu sẽ xử lý và phản hồi lại. Qua đó, mình hiểu rõ hơn cách các hệ thống giao tiếp với nhau trong thực tế.\nMô hình Client – Server giúp hệ thống dễ quản lý, dễ mở rộng, tuy nhiên cũng đòi hỏi Server phải xử lý tốt nhiều kết nối đồng thời để tránh quá tải.\n",
-  "wordCount" : "178",
+  "articleBody": "🌐 Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình giao tiếp và trao đổi dữ liệu thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.\n📌 1. Khái niệm mô hình Client – Server 🔄 Trong mô hình Client – Server:\n💻 Client đóng vai trò gửi yêu cầu (request) 🖥️ Server chịu trách nhiệm tiếp nhận, xử lý yêu cầu và trả kết quả (response) 📡 Sự phân chia này giúp hệ thống hoạt động rõ ràng, có tổ chức và dễ kiểm soát hơn so với các mô hình đơn giản.\n👤 2. Vai trò của Client 📱 Client thường là các ứng dụng phía người dùng như:\n🌐 Trình duyệt web 🖥️ Ứng dụng desktop 📲 Ứng dụng mobile ✨ Nhiệm vụ chính của Client là:\nGửi yêu cầu đến Server Nhận dữ liệu phản hồi Hiển thị thông tin và tương tác với người dùng 🗄️ 3. Vai trò của Server 🧠 Server là nơi chứa dữ liệu và logic xử lý nghiệp vụ của hệ thống. Server có khả năng:\nQuản lý cơ sở dữ liệu Xử lý các yêu cầu từ nhiều Client Đảm bảo tính bảo mật và toàn vẹn dữ liệu 🌍 Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server sẽ phản hồi lại nội dung trang web tương ứng.\n☕ 4. Trải nghiệm thực tế với Java Socket 🛠️ Trong quá trình học Java Socket, mình đã tự xây dựng một chương trình Client gửi chuỗi ký tự đến Server. Sau khi nhận dữ liệu:\n📥 Server tiếp nhận thông tin từ Client ⚙️ Server xử lý dữ liệu 📤 Server phản hồi kết quả trở lại Client 🔁 Thông qua bài thực hành này, mình hiểu rõ hơn cách các hệ thống giao tiếp với nhau trong thực tế và cách luồng dữ liệu được truyền qua mạng.\n📈 5. Ưu điểm và thách thức của mô hình Client – Server ✅ Ưu điểm:\nDễ quản lý và bảo trì hệ thống Dễ mở rộng và nâng cấp Phù hợp với nhiều loại ứng dụng ⚠️ Thách thức:\nServer phải xử lý nhiều kết nối đồng thời Dễ xảy ra quá tải nếu không tối ưu tốt Cần đảm bảo bảo mật và ổn định hệ thống ✅ 6. Kết luận 🎯 Mô hình Client – Server đóng vai trò quan trọng trong lập trình mạng và phát triển hệ thống phần mềm. Việc hiểu rõ mô hình này giúp sinh viên có nền tảng vững chắc để tiếp cận các công nghệ cao hơn như Web Server, API, Microservices và các hệ thống phân tán trong tương lai.\n",
+  "wordCount" : "482",
   "inLanguage": "en",
   "datePublished": "2025-12-21T00:00:00Z",
   "dateModified": "2025-12-21T00:00:00Z",
@@ -144,16 +146,64 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://tiennnn1107.github.io/TranTanTien-blog/">Home</a>&nbsp;»&nbsp;<a href="https://tiennnn1107.github.io/TranTanTien-blog/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Mô hình Client – Server trong lập trình mạng
+      🖥️ Mô hình Client – Server trong lập trình mạng
     </h1>
-    <div class="post-meta"><span title='2025-12-21 00:00:00 +0000 UTC'>December 21, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Trần Tấn Tiến</span>
+    <div class="post-meta"><span title='2025-12-21 00:00:00 +0000 UTC'>December 21, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Trần Tấn Tiến</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>Mô hình Client – Server là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Trong mô hình này, Client đóng vai trò gửi yêu cầu, còn Server chịu trách nhiệm tiếp nhận, xử lý và trả kết quả.</p>
-<p>Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Server là nơi chứa dữ liệu và logic xử lý. Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server trả về nội dung trang web.</p>
-<p>Trong quá trình học Java Socket, mình đã tự xây dựng một chương trình Client gửi chuỗi ký tự đến Server. Server sau khi nhận dữ liệu sẽ xử lý và phản hồi lại. Qua đó, mình hiểu rõ hơn cách các hệ thống giao tiếp với nhau trong thực tế.</p>
-<p>Mô hình Client – Server giúp hệ thống dễ quản lý, dễ mở rộng, tuy nhiên cũng đòi hỏi Server phải xử lý tốt nhiều kết nối đồng thời để tránh quá tải.</p>
+  <div class="post-content"><p>🌐 <strong>Mô hình Client – Server</strong> là kiến trúc cơ bản và phổ biến nhất trong các hệ thống mạng hiện nay. Mô hình này mô tả cách các chương trình <strong>giao tiếp và trao đổi dữ liệu</strong> thông qua mạng, đóng vai trò nền tảng cho hầu hết các ứng dụng hiện đại.</p>
+<h2 id="-1-khái-niệm-mô-hình-client--server">📌 1. Khái niệm mô hình Client – Server<a hidden class="anchor" aria-hidden="true" href="#-1-khái-niệm-mô-hình-client--server">#</a></h2>
+<p>🔄 Trong mô hình Client – Server:</p>
+<ul>
+<li>💻 <strong>Client</strong> đóng vai trò gửi yêu cầu (request)</li>
+<li>🖥️ <strong>Server</strong> chịu trách nhiệm tiếp nhận, xử lý yêu cầu và trả kết quả (response)</li>
+</ul>
+<p>📡 Sự phân chia này giúp hệ thống hoạt động rõ ràng, có tổ chức và dễ kiểm soát hơn so với các mô hình đơn giản.</p>
+<h2 id="-2-vai-trò-của-client">👤 2. Vai trò của Client<a hidden class="anchor" aria-hidden="true" href="#-2-vai-trò-của-client">#</a></h2>
+<p>📱 Client thường là các ứng dụng phía người dùng như:</p>
+<ul>
+<li>🌐 Trình duyệt web</li>
+<li>🖥️ Ứng dụng desktop</li>
+<li>📲 Ứng dụng mobile</li>
+</ul>
+<p>✨ Nhiệm vụ chính của Client là:</p>
+<ul>
+<li>Gửi yêu cầu đến Server</li>
+<li>Nhận dữ liệu phản hồi</li>
+<li>Hiển thị thông tin và tương tác với người dùng</li>
+</ul>
+<h2 id="-3-vai-trò-của-server">🗄️ 3. Vai trò của Server<a hidden class="anchor" aria-hidden="true" href="#-3-vai-trò-của-server">#</a></h2>
+<p>🧠 Server là nơi chứa <strong>dữ liệu</strong> và <strong>logic xử lý nghiệp vụ</strong> của hệ thống. Server có khả năng:</p>
+<ul>
+<li>Quản lý cơ sở dữ liệu</li>
+<li>Xử lý các yêu cầu từ nhiều Client</li>
+<li>Đảm bảo tính bảo mật và toàn vẹn dữ liệu</li>
+</ul>
+<p>🌍 Ví dụ điển hình là khi người dùng truy cập một website, trình duyệt sẽ gửi yêu cầu đến Server và Server sẽ phản hồi lại nội dung trang web tương ứng.</p>
+<h2 id="-4-trải-nghiệm-thực-tế-với-java-socket">☕ 4. Trải nghiệm thực tế với Java Socket<a hidden class="anchor" aria-hidden="true" href="#-4-trải-nghiệm-thực-tế-với-java-socket">#</a></h2>
+<p>🛠️ Trong quá trình học <strong>Java Socket</strong>, mình đã tự xây dựng một chương trình <strong>Client</strong> gửi chuỗi ký tự đến <strong>Server</strong>. Sau khi nhận dữ liệu:</p>
+<ol>
+<li>📥 Server tiếp nhận thông tin từ Client</li>
+<li>⚙️ Server xử lý dữ liệu</li>
+<li>📤 Server phản hồi kết quả trở lại Client</li>
+</ol>
+<p>🔁 Thông qua bài thực hành này, mình hiểu rõ hơn cách các hệ thống giao tiếp với nhau trong thực tế và cách luồng dữ liệu được truyền qua mạng.</p>
+<h2 id="-5-ưu-điểm-và-thách-thức-của-mô-hình-client--server">📈 5. Ưu điểm và thách thức của mô hình Client – Server<a hidden class="anchor" aria-hidden="true" href="#-5-ưu-điểm-và-thách-thức-của-mô-hình-client--server">#</a></h2>
+<p>✅ <strong>Ưu điểm</strong>:</p>
+<ul>
+<li>Dễ quản lý và bảo trì hệ thống</li>
+<li>Dễ mở rộng và nâng cấp</li>
+<li>Phù hợp với nhiều loại ứng dụng</li>
+</ul>
+<p>⚠️ <strong>Thách thức</strong>:</p>
+<ul>
+<li>Server phải xử lý nhiều kết nối đồng thời</li>
+<li>Dễ xảy ra quá tải nếu không tối ưu tốt</li>
+<li>Cần đảm bảo bảo mật và ổn định hệ thống</li>
+</ul>
+<h2 id="-6-kết-luận">✅ 6. Kết luận<a hidden class="anchor" aria-hidden="true" href="#-6-kết-luận">#</a></h2>
+<p>🎯 Mô hình Client – Server đóng vai trò quan trọng trong lập trình mạng và phát triển hệ thống phần mềm. Việc hiểu rõ mô hình này giúp sinh viên có nền tảng vững chắc để tiếp cận các công nghệ cao hơn như <strong>Web Server, API, Microservices</strong> và các hệ thống phân tán trong tương lai.</p>
 
 
   </div>
@@ -168,12 +218,12 @@ Client thường là trình duyệt web, ứng dụng desktop hoặc mobile. Ser
   <a class="prev" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/tcp-va-udp-trong-thuc-te/">
     <span class="title">« Prev</span>
     <br>
-    <span>TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</span>
+    <span>📡 TCP và UDP – Hai giao thức quan trọng trong lập trình mạng</span>
   </a>
   <a class="next" href="https://tiennnn1107.github.io/TranTanTien-blog/posts/lap-trinh-mang-la-gi/">
     <span class="title">Next »</span>
     <br>
-    <span>Tổng quan về lập trình mạng và vai trò của Socket</span>
+    <span>🌐 Tổng quan về lập trình mạng và vai trò của Socket</span>
   </a>
 </nav>
 

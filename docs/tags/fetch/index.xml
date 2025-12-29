@@ -9,13 +9,13 @@
     <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tiennnn1107.github.io/TranTanTien-blog/tags/fetch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fetch API và xử lý bất đồng bộ trong JavaScript</title>
+      <title>🚀 Fetch API và xử lý bất đồng bộ trong JavaScript</title>
       <link>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api-va-bat-dong-bo/</link>
       <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://tiennnn1107.github.io/TranTanTien-blog/posts/fetch-api-va-bat-dong-bo/</guid>
-      <description>&lt;p&gt;Fetch API là công cụ mạnh mẽ cho phép JavaScript gửi và nhận dữ liệu từ Server. Nó thường được sử dụng để gọi REST API trong các ứng dụng web.&lt;/p&gt;
-&lt;p&gt;Fetch hoạt động theo cơ chế bất đồng bộ, giúp website không bị đứng khi chờ dữ liệu từ Server. Điều này giúp cải thiện trải nghiệm người dùng.&lt;/p&gt;
-&lt;p&gt;Qua việc sử dụng Fetch API, mình hiểu rõ hơn cách Client giao tiếp với Server và cách xử lý dữ liệu trả về một cách hiệu quả.&lt;/p&gt;</description>
+      <description>&lt;p&gt;🌐 Trong quá trình phát triển các ứng dụng web hiện đại, việc trao đổi dữ liệu giữa &lt;strong&gt;Client&lt;/strong&gt; và &lt;strong&gt;Server&lt;/strong&gt; là một yêu cầu không thể thiếu. JavaScript cung cấp nhiều cách khác nhau để thực hiện điều này, trong đó &lt;strong&gt;Fetch API&lt;/strong&gt; là một công cụ phổ biến, hiện đại và được sử dụng rộng rãi.&lt;/p&gt;
+&lt;h2 id=&#34;-1-tổng-quan-về-fetch-api&#34;&gt;📌 1. Tổng quan về Fetch API&lt;/h2&gt;
+&lt;p&gt;🔧 &lt;strong&gt;Fetch API&lt;/strong&gt; là một giao diện lập trình được tích hợp sẵn trong JavaScript, cho phép gửi các yêu cầu HTTP như &lt;strong&gt;GET, POST, PUT, DELETE&lt;/strong&gt; đến Server và nhận dữ liệu trả về. Fetch thường được sử dụng để gọi &lt;strong&gt;RESTful API&lt;/strong&gt;, lấy dữ liệu dạng &lt;strong&gt;JSON&lt;/strong&gt;, &lt;strong&gt;XML&lt;/strong&gt; hoặc văn bản.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
